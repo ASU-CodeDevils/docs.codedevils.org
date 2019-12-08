@@ -1,10 +1,10 @@
 CodeDevils Documentation
 ========================
 
-* [Website](/public/website/)
-    * [README](/public/website/)
-    * [Admin](/public/website/admin)
-    * [User Login/Registration](/public/website/login)
-* [Dreamhost](/public/dreamhost/)
-    * [About](/public/dreamhost/)
-    * [Email](/public/dreamhost/email)
+* [Website](/website/)
+    * [README](/website/)
+    * [Admin](/website/admin)
+    * [User Login/Registration](/website/login)
+* [Dreamhost](/dreamhost/)
+    * [About](/dreamhost/)
+    * [Email](/dreamhost/email)
