@@ -485,7 +485,8 @@ body.close .content {
 
     main {
         height: auto;
-        overflow-x: hidden
+        overflow-x: hidden;
+        margin-top: 40px;
     }
 
     .sidebar {
