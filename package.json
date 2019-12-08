@@ -1,0 +1,19 @@
+{
+  "name": "codedevils_docs",
+  "version": "1.0.0",
+  "description": "CodeDevils documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinThePepper/codedevils_docs.git"
+  },
+  "author": "Kevin Shelley (krshelle@asu.edu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KevinThePepper/codedevils_docs/issues"
+  },
+  "homepage": "https://github.com/KevinThePepper/codedevils_docs#readme"
+}
