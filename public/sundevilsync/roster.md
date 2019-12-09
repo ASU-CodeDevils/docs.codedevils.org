@@ -148,16 +148,16 @@ TODO INSERT PICTURE14
 Select [**CREATE RELAY**](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/messaging/create). The
 following dialog will appear:
 
-INSERT PICTURE16
+TODO INSERT PICTURE16
 
 You can select either positions or specific members to include in the relay. If you want to include all members in the
 message, open the **Positions** dialog and select **Member**:
 
-INSERT PICTURE17_1 AND 17_2
+TODO INSERT PICTURE17_1 AND 17_2
 
 You can save the relay by selecting **GENERATE**. A relay detail dialog will appear with the relay email address:
 
-INSERT PICTURE18
+TODO INSERT PICTURE18
 
 ##### Send a Relay Email Message
 
@@ -165,7 +165,7 @@ To send a relay, navigate to the [messaging page](https://asu.campuslabs.com/eng
 and find the relay you want to use. If you have not created a relay, please see [the previous section](#create-a-relay-address)
 before proceeding. Next to the relay, select the eye icon under **Action**. A dialog will appear detailing the relay:
 
-INSERT PICTURE19
+TODO INSERT PICTURE19
 
 To send an email, you must email the relay email address with the message you want recipients to see. Sending an email
 to that address will distribute that message to all the recipients you specified when creating the relay.
@@ -179,16 +179,16 @@ Navigate to the [text message page](https://asu.campuslabs.com/engage/actioncent
 (the same page as messaging but after selecting the [**TEXT (SMS)**](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/textmessaging)
 tab):
 
-INSERT PICTURE20
+TODO INSERT PICTURE20
 
 The text message pane looks like:
 
-INSERT PICTURE21
+TODO INSERT PICTURE21
 
 Select [**SEND TEXT (SMS)**](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/textmessaging/create)
 and the following form will appear:
 
-INSERT PICTURE22
+TODO INSERT PICTURE22
 
 In the _Send To_ section, specify the members you want to send the text to. If you want to send it to all members, select
 members from **_Positions_**:
