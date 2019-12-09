@@ -28,7 +28,7 @@ The exceptions are if the inbox is configured differently or messages are moved 
 There is a size limitation set to 100MB of server storage space for each inbox. If this is not enough, the amount can be increased, but it is preferred that each owner of the fully hosted email have emails forwarded to their personal email address. Note that if the inbox reaches its max of 100MB of space, emails will bounce and the owner will not receive any emails from that inbox.
 
 ##### Creating a Fully Hosted Inbox
-From _the_ mailbox manager page, select the [![create_new_email](https://drive.google.com/open?id=1dk9zNvxxDm33Dc_sZxpomGhZpD3bfvYA)](https://panel.dreamhost.com/index.cgi?tree=mail.addresses&current_step=Index&next_step=New) button. Navigate to the _Fully Hosted Email_ section, which will look like:
+From _the_ mailbox manager page, select the [![create_new_email](https://lh3.google.com/u/0/d/1dk9zNvxxDm33Dc_sZxpomGhZpD3bfvYA=w400-h380-p-k-nu-iv1)](https://panel.dreamhost.com/index.cgi?tree=mail.addresses&current_step=Index&next_step=New) button. Navigate to the _Fully Hosted Email_ section, which will look like:
 
 ![](../static/img/dreamhost/email/Picture2.png)
 
