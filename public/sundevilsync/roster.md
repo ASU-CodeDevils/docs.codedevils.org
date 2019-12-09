@@ -21,7 +21,7 @@ TODO INSERT PICTURE2
 
 The roster management dashboard will appear. There are 2 levels of access:
 1. Members with **View** access will be able to only view the roster members, membership details, and positions.
-2. Members with **Edit** access will have the same priveleges as **View** except they will be able to edit
+2. Members with **Edit** access will have the same privileges as **View** except they will be able to edit
 the roster as well.
 
 ### Invite People
