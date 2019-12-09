@@ -12,8 +12,16 @@ can be used to manage the organization by accepting members, create news article
 (i.e. links and description).
 
 ## Membership Roster
-Mange memberships, update/add positions, and send messages to all members by using the [Rosster management tool](#/sundevilsync/email)
+Mange memberships, update/add positions, and send messages to all members by using the [Roster management tool](/sundevilsync/roster)
 available through the [action center](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/).
+
+See [our roster management documentation](/sundevilsync/roster) for more information.
+
+## About
+Publicly display information about the organization on SunDevilSync such as contact information, links to external/social
+sites, and targeted audiences.
+
+See [our About documentation](/sundevilsync/about) for more information.
 
 ## CampusLabs Engage API
 CampusLabs provides an [Engage API](https://asu.campuslabs.com/engage/api/swagger/ui/index) to programmatically obtain 
@@ -27,5 +35,5 @@ See [our Engage API documentation](/sundevilsync/engage_api) for more informatio
 * CampusLabs API - https://asu.campuslabs.com/engage/api/swagger/ui/index
 * CampusLabs Home Page - https://www.campuslabs.com/campus-labs-platform/student-engagement/
 * SunDevilSync Home Page - https://asu.campuslabs.com/engage/
-* CodeDevils SunDevilSync Page - https://asu.campuslabs.com/engage/organization/codedevils
+* CodeDevils SunDevilSync Home Page - https://asu.campuslabs.com/engage/organization/codedevils
 * CodeDevils SunDevilsSync Action Center - https://asu.campuslabs.com/engage/actioncenter/organization/codedevils
