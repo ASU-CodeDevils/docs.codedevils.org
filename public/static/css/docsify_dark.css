@@ -26,7 +26,6 @@ div#app {
     font-weight: lighter;
     margin: 40px auto !important;
     text-align: center;
-    margin-top: 40px !important;
 }
 
 div#app:empty:before {
