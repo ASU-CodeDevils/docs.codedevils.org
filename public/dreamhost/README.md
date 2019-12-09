@@ -8,5 +8,5 @@ or to get hosting checkout the [DreamHost special web hosting](https://www.dream
 for exclusive CodeDevils discounts.
 
 ## Emails
-Check out our [email configuration documentation](/email) for information
+Check out our [email configuration documentation](/dreamhost/email) for information
 on how to set up and manage CodeDevils' email addresses.
