@@ -26,6 +26,7 @@ div#app {
     font-weight: lighter;
     margin: 40px auto !important;
     text-align: center;
+    margin-top: 40px !important;
 }
 
 div#app:empty:before {
@@ -938,6 +939,7 @@ pre:after {
     margin-top: 0 !important;
     background-color: var(--theme-color, #42b983);
     margin-right: 0 !important;
+    position: fixed;
 }
 
 /* Cover page */
