@@ -104,11 +104,11 @@ Fill out the fields as appropriate:
 appear on the [home page](https://asu.campuslabs.com/engage/organization/codedevils).
 * **Active**: If left unchecked, the position will only be available as a Past Position, meaning the position is cannot
 be assigned to the active holder of the position.
-* **Set Management Access**: Access to the [organization management dashboard](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils)
+* **Set Management Access**: Access to the [organization action center dashboard](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils)
 can be granted through one of three tiers:
-    * **_No Access_** - The member cannot access organization management.
-    * **_All Access_** - The member has view and edit access to organization management.
-    * **_Limited Access_** - You can assigned individual view/edit access to the different parts of organization management.
+    * **_No Access_** - The member cannot access organization action center.
+    * **_All Access_** - The member has view and edit access to organization action center.
+    * **_Limited Access_** - You can assigned individual view/edit access to the different parts of organization action center.
     
 Select **CREATE** to finish creating the position.
 

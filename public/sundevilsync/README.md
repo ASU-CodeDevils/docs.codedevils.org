@@ -11,17 +11,13 @@ For administrators/officers, the [action center](https://asu.campuslabs.com/enga
 can be used to manage the organization by accepting members, create news articles/events, and update the organization's information
 (i.e. links and description).
 
-## Membership Roster
-Mange memberships, update/add positions, and send messages to all members by using the [Roster management tool](/sundevilsync/roster)
-available through the [action center](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/).
-
 See [our roster management documentation](/sundevilsync/roster) for more information.
 
 ## About
 Publicly display information about the organization on SunDevilSync such as contact information, links to external/social
 sites, and targeted audiences.
 
-See [our About documentation](/sundevilsync/about) for more information.
+See [our about documentation](/sundevilsync/about) for more information.
 
 ## CampusLabs Engage API
 CampusLabs provides an [Engage API](https://asu.campuslabs.com/engage/api/swagger/ui/index) to programmatically obtain 
@@ -30,6 +26,15 @@ contains student personal identifiable information (PII) that must be auditable 
 in registering students on the website, so it is important to note the API for developers of the website in the future.
 
 See [our Engage API documentation](/sundevilsync/engage_api) for more information.
+
+## Membership Roster
+Mange memberships, update/add positions, and send messages to all members by using the [Roster management tool](/sundevilsync/roster)
+available through the [action center](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/).
+
+## News
+Create news articles to notify both members and outside students about upcoming events and meetings.
+
+See [our news documentation](/sundevilsync/news) for more information.
 
 ## Links
 * CampusLabs API - https://asu.campuslabs.com/engage/api/swagger/ui/index
