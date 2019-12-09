@@ -538,6 +538,10 @@ body.close .content {
     .github-corner .octo-arm {
         animation: a .56s ease-in-out
     }
+
+    .navbar {
+        position: fixed;
+    }
 }
 
 @keyframes a {
@@ -934,4 +938,60 @@ pre:after {
     margin-top: 0 !important;
     background-color: var(--theme-color, #42b983);
     margin-right: 0 !important;
+}
+
+/* Cover page */
+.cover-custom {
+    clear: both;
+    padding: 0;
+    margin: 0;
+    background-image: none !important;
+}
+
+/*  COLUMN SETUP  */
+.col {
+    display: block;
+    float:left;
+    margin: 1% 0 1% 1.6%;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding: 8px;
+    height: 20vh;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+    width: 100%;
+}
+.span_2_of_3 {
+    width: 66.1%;
+}
+.span_1_of_3 {
+    width: 32.2%;
+}
+
+.cover-custom-header {
+    height: 100%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .col { margin: 1% 0 1% 0;}
+    .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
