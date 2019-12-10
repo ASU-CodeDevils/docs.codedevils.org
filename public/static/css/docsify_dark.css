@@ -32,6 +32,14 @@ div#app:empty:before {
     content: "Loading..."
 }
 
+.nav-item:first-child {
+    margin-left: 160px;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
 .emoji {
     height: 1.2rem;
     vertical-align: middle
@@ -544,6 +552,10 @@ body.close .content {
 
     .navbar {
         position: fixed;
+    }
+
+    .nav-item:first-child {
+        margin-left: 0;
     }
 }
 
