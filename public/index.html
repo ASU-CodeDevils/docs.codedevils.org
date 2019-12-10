@@ -23,34 +23,14 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownWebsite" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Website
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownWebsite">
-          <a class="dropdown-item" href="#/website/">Website README</a>
-        </div>
+      <li class="nav-item active">
+        <a class="nav-link" href="#/website/">Website <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDreamhost" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          DreamHost
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownDreamhost">
-          <a class="dropdown-item" href="#/dreamhost/">Overview</a>
-          <a class="dropdown-item" href="#/dreamhost/email">Email</a>
-        </div>
+      <li class="nav-item">
+        <a class="nav-link" href="#/dreamhost/">DreamHost</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSundevilsync" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          SunDevilSync
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownSundevilsync">
-          <a class="dropdown-item" href="#/sundevilsync/">Overview</a>
-          <a class="dropdown-item" href="#/sundevilsync/about">About</a>
-          <a class="dropdown-item" href="#/sundevilsync/engage_api">Engage API</a>
-          <a class="dropdown-item" href="#/sundevilsync/news">News</a>
-          <a class="dropdown-item" href="#/sundevilsync/roster">Roster</a>
-        </div>
+      <li class="nav-item">
+        <a class="nav-link" href="#/sundevilsync/">SunDevilSync</a>
       </li>
     </ul>
   </div>
@@ -59,9 +39,9 @@
   <script>
     window.$docsify = {
       name: 'CodeDevils - Documentation',
-      subMaxLevel: 2,
       coverpage: 'coverpage.html',
-      onlyCover: true
+      onlyCover: true,
+      loadSidebar: true,
       // repo: 'https://github.com/KevinThePepper/codedevils_docs'
     }
   </script>
@@ -76,6 +56,11 @@
   const showClass = "show";
 
   $(window).on("load resize", function() {
+    $( '.navbar-nav a' ).on( 'click', function () {
+      $( '.navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
+      $( this ).parent( 'li' ).addClass( 'active' );
+    });
+
     if (this.matchMedia("(min-width: 768px)").matches) {
       $dropdown.hover(
               function() {
