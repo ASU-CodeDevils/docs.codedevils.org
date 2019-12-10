@@ -6,14 +6,11 @@
 
 > Knowledge base for all things CodeDevils.
 
-- Last updated: 
-- No statically built html files
-- Multiple themes
-
 ## View Documentation
 [Website](#/website/)
 [DreamHost](#/dreamhost/)
 [SunDevilsSync](#/sundevilsync/)
+[Contact Us](mailto:webmaster@codedevils.org)
 [Go to CodeDevils Website](https://www.codedevils.org/)
 
 ![](#f5f5f5)
