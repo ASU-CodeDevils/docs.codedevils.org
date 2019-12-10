@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-<img id="logo" src="https://www.codedevils.org/public/static/home/img/logo.png" alt="logo" width="400" height="160">
+<img class="no-shadow" src="https://www.codedevils.org/public/static/home/img/logo.png" alt="logo" width="400" height="160">
 
 # Documentation <small>1.0.1</small>
 

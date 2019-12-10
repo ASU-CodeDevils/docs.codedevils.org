@@ -42,7 +42,7 @@ body:not(.ready) .app-nav, body:not(.ready) > nav, body:not(.ready) [data-cloak]
     display: none
 }
 
-img:not(#logo) {
+img:not(.no-shadow) {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3) !important;
 }
 
