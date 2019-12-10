@@ -45,12 +45,12 @@ From the list you can either resend or delete the invitation.
 ### Accept New Members
 Membership requests will show up in the [prospective list](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/roster/Roster/prospective):
 
-![Picture 5]()
+![Picture 5](https://drive.google.com/uc?id=1h8k4logOef4l-wfRlgKZprpghj6l3xnu)
 
 The only criteria for being a member is that they have a valid ASU email address. You can verify by selecting their name.
 The email address will be just below their name:
 
-![Picture 6]()
+![Picture 6](https://drive.google.com/uc?id=1a-y3I-kyaWrKrUXX92iA2Sr_f9n4nIHX)
 
 If the person does not have an ASU email, they will not be able to register with CodeDevils (unless otherwise allowed
 by the President/Vice President), and you should email them to have them re-register with a valid student account. You
