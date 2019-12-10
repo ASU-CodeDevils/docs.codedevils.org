@@ -13,11 +13,11 @@ or by navigating to the [organization home page](https://asu.campuslabs.com/enga
 ## Roster Management
 From the action center, select the barred icon in the top left:
 
-TODO INSERT PICTURE1
+![](https://drive.google.com/uc?id=1ljm4DbHRTHVGe67CL-7utnHm38CI_czE)
 
 And then select **Roster**:
 
-TODO INSERT PICTURE2
+![](https://drive.google.com/uc?id=1Ani7KY6RojA4DLV1kMECRyE6PPVIwzab)
 
 The roster management dashboard will appear. There are 2 levels of access:
 1. Members with **View** access will be able to only view the roster members, membership details, and positions.
@@ -28,7 +28,7 @@ the roster as well.
 To invite a student as a member, navigate to the [roster management dashboard](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/roster) and select the
 [**Invite People**](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/roster/Roster/invite) button in the top-right:
 
-TODO INSERT PICTURE3
+![](https://drive.google.com/uc?id=1SJ_vWBP6k3GWmumWieix2NT-FNsRomxL)
 
 Enter the ASU email address(es) of the person(s) you want to invite. Each email address must be a valid ASU email
 that ends in _@asu.edu_. If you want to invite multiple members, either separate each email address by commas or 
@@ -38,19 +38,19 @@ Once you have entered all the email address, select the **ADD E-MAIL ADDRESSES**
 will then be sent to each person. Their name will then appear in the [PENDING](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/roster/Roster/pending)
 list on the [roster management dashboard](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/roster):
 
-TODO INSERT PICTURE4
+![](https://drive.google.com/uc?id=1T85QueUDExQojXCzrzZ8QEoW96mWqyha)
 
 From the list you can either resend or delete the invitation.
 
 ### Accept New Members
 Membership requests will show up in the [prospective list](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/roster/Roster/prospective):
 
-TODO INSERT PICTURE5
+![Picture 5]()
 
 The only criteria for being a member is that they have a valid ASU email address. You can verify by selecting their name.
 The email address will be just below their name:
 
-TODO INSERT PICTURE6
+![Picture 6]()
 
 If the person does not have an ASU email, they will not be able to register with CodeDevils (unless otherwise allowed
 by the President/Vice President), and you should email them to have them re-register with a valid student account. You
@@ -63,11 +63,11 @@ can email them be selecting the check-mark next to their name and selecting the 
 You can modify a members position by navigating to the [roster management dashboard](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/roster)
 and selecting the student that you want to update:
 
-TODO INSERT PICTURE7
+![](https://drive.google.com/uc?id=14Ov1qpkGtXPr-7qQfjZd9HYF6BtMOLEP)
 
 A dialog will appear with all the positions available to be assigned:
 
-TODO INSERT PICTURE8
+![](https://drive.google.com/uc?id=1f3V3ScFMvM4pbHdNQW1vHBO3FZfl9TZT)
 
 The _Member_ position is selected by default. Select/deselect any additional positions you want to modify and select
 **SAVE**.
@@ -77,24 +77,24 @@ Navigate to the [roster management dashboard](https://asu.campuslabs.com/engage/
 and select the check-mark to the left of the student whose membership you want to end. Delete the membership by selecting
 **END MEMBERSHIP**:
 
-TODO INSERT PICTURE9
+![](https://drive.google.com/uc?id=1PelzDQBoVXjPO1Pu99_nltBl3a2FyCam)
 
 ### Manage Positions
 Officer/staff positions can be modified via the [roster management dashboard](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/roster)
 by selecting [**MANAGE POSITIONS**](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/roster/positions) in the top right:
 
-TODO INSERT PICTURE10
+![](https://drive.google.com/uc?id=1Ktm0IFkC4ethWSSTzLVuNBT84zFoJqPA)
 
 #### Create a New Position
 
 From the [positions management dashboard](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/roster/positions),
 select [**+POSITION**](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/roster/positions/create):
 
-TODO INSERT PICTURE11
+![](https://drive.google.com/uc?id=1jwrcbj67r8Ox60j4ieZYauaSP6_HOMvg)
 
 After selecting [**+POSITION**](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/roster/positions/create) the following form will appear:
 
-TODO INSERT PICTURE12
+![](https://drive.google.com/uc?id=1xfrhePVJmUE3q7NAaePDqgflP3Ik96ck)
 
 ##### Position Fields
 Fill out the fields as appropriate:
@@ -117,13 +117,13 @@ Select **CREATE** to finish creating the position.
 Navigate to the [position management dashboard](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/roster/positions)
 and select the _Name_ of the position you want to modify:
 
-TODO INSERT PICTURE13
+![](https://drive.google.com/uc?id=1DVDOwN3JAXgnDWU0-49VY1gnODyaWT-8)
 
 If the name is greyed out, the position is created by default and cannot be modified.
 
 A dialog will appear:
 
-TODO INSERT PICTURE14
+![](https://drive.google.com/uc?id=1uNaHi-qbFbV549QC4-lhmRa2qaPJMzjI)
 
 Modify the [position fields](#position-fields) as needed and select **SAVE** at the bottom of the form.
 
@@ -143,21 +143,21 @@ hours and target a certain group of members (i.e. all members or just certain me
 navigate to the [roster management dashboard](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/roster)
 and select [**MESSAGING**](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/messaging) in the top-right:
 
-TODO INSERT PICTURE14
+![](https://drive.google.com/uc?id=1jGmuKEr8crgdZDSjjqTIV3NDYjqsS9WV)
 
 Select [**CREATE RELAY**](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/messaging/create). The
 following dialog will appear:
 
-TODO INSERT PICTURE16
+![](https://drive.google.com/uc?id=12mG27Ryagip164db9fGf1MDLspWfQzhD)
 
 You can select either positions or specific members to include in the relay. If you want to include all members in the
 message, open the **Positions** dialog and select **Member**:
 
-TODO INSERT PICTURE17_1 AND 17_2
+![](https://drive.google.com/uc?id=1WbVUiKjQ_B2eoHly3zo_WZEgAeeJ29bb)
 
 You can save the relay by selecting **GENERATE**. A relay detail dialog will appear with the relay email address:
 
-TODO INSERT PICTURE18
+![](https://drive.google.com/uc?id=1xrZ-mo-cDcc7sfNvOeDcE3kiViWww-4I)
 
 ##### Send a Relay Email Message
 
@@ -165,7 +165,7 @@ To send a relay, navigate to the [messaging page](https://asu.campuslabs.com/eng
 and find the relay you want to use. If you have not created a relay, please see [the previous section](#create-a-relay-address)
 before proceeding. Next to the relay, select the eye icon under **Action**. A dialog will appear detailing the relay:
 
-TODO INSERT PICTURE19
+![](https://drive.google.com/uc?id=1l9qI2mlas5Ys7pULk88yfqB4LlwErdP4)
 
 To send an email, you must email the relay email address with the message you want recipients to see. Sending an email
 to that address will distribute that message to all the recipients you specified when creating the relay.
@@ -179,21 +179,21 @@ Navigate to the [text message page](https://asu.campuslabs.com/engage/actioncent
 (the same page as messaging but after selecting the [**TEXT (SMS)**](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/textmessaging)
 tab):
 
-TODO INSERT PICTURE20
+![](https://drive.google.com/uc?id=1tsQbXL_RtqyqrI0cyNLtdBSzq4DDC3yU)
 
 The text message pane looks like:
 
-TODO INSERT PICTURE21
+![](https://drive.google.com/uc?id=1beIe1L3K-ewZZyq-3Ta-VUawK5FqTc2u)
 
 Select [**SEND TEXT (SMS)**](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/textmessaging/create)
 and the following form will appear:
 
-TODO INSERT PICTURE22
+![](https://drive.google.com/uc?id=1prIUvnvqwy0hUQvtTEGkOcd0-PXtGIv_)
 
 In the _Send To_ section, specify the members you want to send the text to. If you want to send it to all members, select
 members from **_Positions_**:
 
-TODO INSERT PICTURE17_1 AND 17_2
+![](https://drive.google.com/uc?id=1WbVUiKjQ_B2eoHly3zo_WZEgAeeJ29bb)
 
 Write the text you want to send in the _Compose_ section (max 140 characters). In section 3 you can then either preview
 or send the message. Once sent, the text message will be sent to all specified recipients from a relay email address
@@ -205,11 +205,11 @@ cannot be replied to.
 To enable text message notifications on your account, login to [SunDevilSync](https://asu.campuslabs.com/engage/) and go
 to your [account settings](https://asu.campuslabs.com/engage/account):
 
-TODO INSERT PICTURE23 AND 23_1
+![](https://drive.google.com/uc?id=1l8W1zJ91nBwBhRHJnp7coGHZicBvoxuv)
 
 Scroll down to the **Text Message Notifications** section:
 
-TODO INSERT PICTURE24
+![](https://drive.google.com/uc?id=1oqqc4gudZeDUjERjLsEA55SdZkeAW6Me)
 
 Select **ON** if not already selected. Enter a phone number and follow the on-screen instructions to confirm it. Once
 you have finished turning notifications on, scroll down to the bottom of the page and select **Update** for changes to
