@@ -27,6 +27,8 @@ The [Swagger UI](https://swagger.io/) is an interface used to document and test 
 to document its endpoints and enables testing with a valid JWT token. The [Swagger interface for ASU](https://asu.campuslabs.com/engage/api/swagger/ui/index)
 shows all the endpoints available for use through ASU.
 
+[ASU Swagger UI](https://asu.campuslabs.com/engage/api/swagger/ui/index ':include :type=iframe width=100% height=600px')
+
 ## Links
 * CampusLabs API - https://asu.campuslabs.com/engage/api/swagger/ui/index
 * CampusLabs Home Page - https://www.campuslabs.com/campus-labs-platform/student-engagement/
