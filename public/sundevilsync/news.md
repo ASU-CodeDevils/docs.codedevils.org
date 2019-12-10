@@ -9,15 +9,15 @@ To create a news article by navigating to the [news management dashboard](https:
 or by going to the [organization action center dashboard](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils),
 opening the side drawer and selecting **News** from the menu:
 
-TODO INSERT PICTURE1
+![](https://drive.google.com/uc?id=1Zfg-hgOCetNKHZznn8vza3244cHfMyVi)
 
 Then from the page that appears, select [**CREATE ARTICLE**](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/news/create?backLabel=Back%20to%20News&backUrl=%2Fengage%2Factioncenter%2Forganization%2Fcodedevils%2Fnews%3F):
 
-TODO INSERT PICTURE2
+![](https://drive.google.com/uc?id=1VL1sjMBV2_L-E-isW44tbLHVzoVOUWSr)
 
 The following form will appear:
 
-TODO INSERT PICTURE3
+![](https://drive.google.com/uc?id=1PfKAfgB2jNJbp29d-_AO9_g5IBNmKHno)
 
 Fill out all the appropriate fields:
 
@@ -33,7 +33,7 @@ There are 4 required fields in this section:
 
 The image of a news article appears to the left of the article in the [news article listing](https://asu.campuslabs.com/engage/news):
 
-TODO INSERT PICTURE5
+![](https://drive.google.com/uc?id=1kxiJg3BkiqE9LedTwJoadK0Z8iKgVcMT)
 
 If you do not know what image to select, or do not have an image for the news article, you should use the [CodeDevils logo](https://www.codedevils.org/public/static/home/img/logo.png). <<< TODO CHANGE TO SOLID BACKGROUND LOGO
 
@@ -41,7 +41,7 @@ If you do not know what image to select, or do not have an image for the news ar
 
 Visibility defines who can see the article:
 
-TODO INSERT PICTURE6
+![](https://drive.google.com/uc?id=1f-bUaR9-pT87NrhWWTLFvDwgKMzQKVv7)
 
 There are 4 viewing options:
 1. **Public** - Anyone
@@ -53,7 +53,7 @@ There are 4 viewing options:
 
 Select **CREATE ARTICLE** to publish the news article:
 
-TODO INSERT PICTURE7
+![](https://drive.google.com/uc?id=16kGHPkzNe34O8WHcaErLFUHFXjPn4YvF)
 
 ## Links
 * Create a CodeDevils News Article - https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/news/create?backLabel=Back%20to%20News&backUrl=%2Fengage%2Factioncenter%2Forganization%2Fcodedevils%2Fnews%3F
