@@ -180,7 +180,6 @@ li input[type=checkbox] {
     display: block;
     font-size: 14px;
     line-height: 1rem;
-    margin: 0;
     margin: 8px 14px;
     white-space: nowrap
 }
