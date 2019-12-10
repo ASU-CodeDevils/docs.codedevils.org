@@ -13,6 +13,27 @@
     box-sizing: border-box
 }
 
+/* Copyright footer styling */
+@media screen and (max-width: 875px) {
+    .modified, .copyright {
+        clear: left;
+    }
+    .my-footer {
+        display: inline-block;
+        text-align: center;
+        overflow: hidden;
+        float: right;
+    }
+}
+
+.copyright {
+    float: left;
+}
+
+.modified {
+    float: right;
+}
+
 body:not(.ready) {
     overflow: hidden
 }

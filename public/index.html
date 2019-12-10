@@ -43,12 +43,57 @@
 <div id="app"><br><br>Please wait...</div>
 <!-- docsify script config -->
 <script>
+    const repo = 'https://github.com/KevinThePepper/codedevils_docs/';
+
     window.$docsify = {
         coverpage: true,
         onlyCover: true,
         loadSidebar: true,
-        auto2top: true
-        // repo: 'https://github.com/KevinThePepper/codedevils_docs'
+        auto2top: true,
+        formatUpdated: '{YYYY}-{MM}-{DD}',
+        // repo: repo
+        plugins: [
+            function(hook, vm) {
+                // hack for obtaining modified time
+                const req = new XMLHttpRequest();
+                req.open('GET', document.location, false);
+                req.send(null);
+                const modified = req.getResponseHeader('last-modified');
+
+                let footer = [
+                    '<hr/>',
+                    '<footer>',
+                    '<small>',
+                    '<div class="my-footer">',
+                    '<div class="copyright"><a href="https://www.codedevils.org">CodeDevils</a> &copy; 2019. All rights reserved.</div>',
+                    '<div class="modified">',
+                    'Last modified: ' + modified,
+                    '</div>',
+                    '</div>',
+                    '</small>',
+                    '</footer>'
+                ].join('');
+
+                hook.afterEach(function (html) {
+                    return html + footer;
+                });
+            }
+            /*
+            function(hook, vm) {
+                hook.beforeEach(function (html) {
+                    let url = repo + '/blob/master/public/' + vm.route.file;
+                    let editHtml = '[📝 EDIT DOCUMENT](' + url + ')\n';
+
+                    return (
+                        html +
+                        '\n----\n' +
+                        'Last modified  ' +
+                        editHtml
+                    );
+                });
+            }
+            */
+        ]
     };
 </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
