@@ -1,85 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>CodeDevils Documentation</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="CodeDevils documentation">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <!-- docsify theme -->
-  <link rel="stylesheet" href="static/css/docsify_dark.css" type="text/css">
-  <!-- bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <!-- favicon -->
-  <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="UTF-8">
+    <title>CodeDevils Documentation</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="CodeDevils documentation">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- docsify theme -->
+    <link rel="stylesheet" href="static/css/docsify_dark.css" type="text/css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-  <a class="navbar-brand" href="#">
-    <img src="https://www.codedevils.org/public/static/home/img/logo-light.png" width="100" height="40" alt="">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#/website/">Website <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#/dreamhost/">DreamHost</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#/sundevilsync/">SunDevilSync</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-  <div id="app">Please wait...</div>
-  <script>
-    window.$docsify = {
-      name: 'CodeDevils - Documentation',
-      coverpage: 'coverpage.html',
-      onlyCover: true,
-      loadSidebar: true,
-      // repo: 'https://github.com/KevinThePepper/codedevils_docs'
-    }
-  </script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- navbar -->
+<div class="navbar navbar-expand-lg navbar-dark bg-maroon fixed-top">
+    <a class="navbar-brand" href="#">
+        <img src="https://www.codedevils.org/public/static/home/img/logo-light.png" width="100" height="40" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#/website/">Website<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#/dreamhost/">DreamHost</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#/sundevilsync/">SunDevilSync</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- docsify app body -->
+<div id="app">Please wait...</div>
 <script>
-  const $dropdown = $(".dropdown");
-  const $dropdownToggle = $(".dropdown-toggle");
-  const $dropdownMenu = $(".dropdown-menu");
-  const showClass = "show";
-
-  $(window).on("load resize", function() {
-    $( '.navbar-nav a' ).on( 'click', function () {
-      $( '.navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
-      $( this ).parent( 'li' ).addClass( 'active' );
-    });
-
-    if (this.matchMedia("(min-width: 768px)").matches) {
-      $dropdown.hover(
-              function() {
-                const $this = $(this);
-                $this.addClass(showClass);
-                $this.find($dropdownToggle).attr("aria-expanded", "true");
-                $this.find($dropdownMenu).addClass(showClass);
-              },
-              function() {
-                const $this = $(this);
-                $this.removeClass(showClass);
-                $this.find($dropdownToggle).attr("aria-expanded", "false");
-                $this.find($dropdownMenu).removeClass(showClass);
-              }
-      );
-    } else {
-      $dropdown.off("mouseenter mouseleave");
-    }
-  });
+    window.$docsify = {
+        coverpage: 'coverpage.html',
+        onlyCover: true,
+        loadSidebar: true,
+        repo: 'https://github.com/KevinThePepper/codedevils_docs'
+    };
 </script>
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 </html>
