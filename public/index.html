@@ -71,10 +71,12 @@
                     // check whether or not the google drive can be reached
                     let xmlHttp = new XMLHttpRequest();
                     xmlHttp.onreadystatechange = function() {
-                        if (xmlHttp.readyState === 4 && xmlHttp.statusText !== '(failed)')
+                        if (xmlHttp.readyState === 4 && xmlHttp.statusText === '(failed)') {
+                            alert(xmlHttp.readyState + ' ' + xmlHttp.statusText);
                             console.log('Failed to connect to Google Drive. Files/images contained on the Drive will not be loaded');
-                        const failed_drive_str = '!> Failed to connect to Google Drive. Some files/images may not be shown.\n\n';
-                        content = failed_drive_str + content;
+                            const failed_drive_str = '!> Failed to connect to Google Drive. Some files/images may not be shown.\n\n';
+                            content = failed_drive_str + content;
+                        }
                         return content;
                     };
                     xmlHttp.open("GET", 'https://drive.google.com', true);
@@ -101,25 +103,10 @@
                     return html + footer;
                 });
             }
-            /*
-            function(hook, vm) {
-                hook.beforeEach(function (html) {
-                    let url = repo + '/blob/master/public/' + vm.route.file;
-                    let editHtml = '[📝 EDIT DOCUMENT](' + url + ')\n';
-
-                    return (
-                        html +
-                        '\n----\n' +
-                        'Last modified  ' +
-                        editHtml
-                    );
-                });
-            }
-            */
         ]
     };
 </script>
-<script src="static/js/docsify.js"></script>
+<script src="static/js/docsify.min.js"></script>
 <!-- support language highlighting (default is html, css, and js) -->
 <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
 <script src="//unpkg.com/prismjs/components/prism-python.min.js"></script>
