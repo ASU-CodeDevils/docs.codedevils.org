@@ -60,6 +60,29 @@
                 req.send(null);
                 const modified = req.getResponseHeader('last-modified');
 
+                // check whether or not the google drive can be reached
+                hook.beforeEach(function(content) {
+                    /*
+                    // get the modified time and add to the top of the file
+                    let last_modified = 'Last modified: {docsify-updated}\n\n';
+                    content = last_modified + content;
+                    */
+
+                    // check whether or not the google drive can be reached
+                    let xmlHttp = new XMLHttpRequest();
+                    xmlHttp.onreadystatechange = function() {
+                        if (xmlHttp.readyState === 4 && xmlHttp.statusText !== '(failed)')
+                            console.log('Failed to connect to Google Drive. Files/images contained on the Drive will not be loaded');
+                        const failed_drive_str = '!> Failed to connect to Google Drive. Some files/images may not be shown.\n\n';
+                        content = failed_drive_str + content;
+                        return content;
+                    };
+                    xmlHttp.open("GET", 'https://drive.google.com', true);
+                    xmlHttp.send(null);
+
+                    return content;
+                });
+
                 let footer = [
                     `<hr/>`,
                     `<footer>`,
