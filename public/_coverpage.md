@@ -6,11 +6,7 @@
 
 > Knowledge base for all things CodeDevils.
 
-## View Documentation
-[Website](/website/)
-[DreamHost](/dreamhost/)
-[SunDevilsSync](/sundevilsync/)
-[Contact Us](mailto:webmaster@codedevils.org)
-[Go to CodeDevils Website](https://www.codedevils.org/)
+[GitHub](https://github.com/KevinThePepper/codedevils_docs)
+[Get Started](/overview)
 
 ![](#f5f5f5)
