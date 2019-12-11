@@ -25,7 +25,7 @@ and modify data on SunDevilSync. As of now, ASU is not authorizing any applicati
 contains student personal identifiable information (PII) that must be auditable before obtaining. The API will be useful
 in registering students on the website, so it is important to note the API for developers of the website in the future.
 
-See [our Engage API documentation](/sundevilsync/engage_API) for more information.
+See [our Engage API documentation](/sundevilsync/engage_api) for more information.
 
 ## Membership Roster
 Mange memberships, update/add positions, and send messages to all members by using the [Roster management tool](/sundevilsync/roster)
