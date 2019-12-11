@@ -61,18 +61,18 @@
                 const modified = req.getResponseHeader('last-modified');
 
                 let footer = [
-                    '<hr/>',
-                    '<footer>',
-                    '<small>',
-                    '<div class="my-footer">',
-                    '<div class="copyright"><a href="https://www.codedevils.org">CodeDevils</a> &copy; 2019. All rights reserved.</div>',
-                    '<div class="modified">',
-                    'Last modified: ' + modified,
-                    '</div>',
-                    '</div>',
-                    '</small>',
-                    '</footer>'
-                ].join('');
+                    `<hr/>`,
+                    `<footer>`,
+                    `<small>`,
+                    `<div class="my-footer">`,
+                    `<div class="copyright"><a href="https://www.codedevils.org">CodeDevils</a> &copy; 2019. All rights reserved.</div>`,
+                    `<div class="modified">`,
+                    `Last modified: ` + modified,
+                    `</div>`,
+                    `</div>`,
+                    `</small>`,
+                    `</footer>`
+                ].join(``);
 
                 hook.afterEach(function (html) {
                     return html + footer;
@@ -96,7 +96,7 @@
         ]
     };
 </script>
-<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="static/js/docsify.js"></script>
 <!-- support language highlighting (default is html, css, and js) -->
 <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
 <script src="//unpkg.com/prismjs/components/prism-python.min.js"></script>
@@ -111,8 +111,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+<script src="static/js/bootstrap.min.js"></script>
 </body>
 </html>

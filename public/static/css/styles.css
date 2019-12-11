@@ -495,15 +495,15 @@ body.sticky .sidebar, body.sticky .sidebar-toggle {
     list-style-type: none
 }
 
-body.close .sidebar {
+body.close-side .sidebar {
     transform: translateX(-300px)
 }
 
-body.close .sidebar-toggle {
+body.close-side .sidebar-toggle {
     width: auto
 }
 
-body.close .content {
+body.close-side .content {
     left: 0
 }
 
@@ -557,22 +557,22 @@ body.close .content {
         padding: 30px 30px 10px 10px
     }
 
-    body.close .sidebar {
+    body.close-side .sidebar {
         transform: translateX(300px)
     }
 
-    body.close .sidebar-toggle {
+    body.close-side .sidebar-toggle {
         background-color: hsla(0, 0%, 100%, .8);
         transition: background-color 1s;
         width: 284px;
         padding: 10px
     }
 
-    body.close .content {
+    body.close-side .content {
         transform: translateX(300px)
     }
 
-    body.close .app-nav, body.close .github-corner {
+    body.close-side .app-nav, body.close-side .github-corner {
         display: none
     }
 
