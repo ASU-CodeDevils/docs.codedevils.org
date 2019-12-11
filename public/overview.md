@@ -1,6 +1,3 @@
-Overview
-========
-
 Website
 -------
 <img class="no-shadow" src="https://www.codedevils.org/public/static/home/img/logo.png" alt="logo" width="250">
