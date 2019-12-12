@@ -1,7 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600");
-
 :root {
     --theme-color: #8c1d40;
+    --background-color: white;
+}
+
+body {
+    background-color: var(--background-color, #ffffff) !important;
 }
 
 /* Copyright footer styling */
@@ -29,7 +32,7 @@
     }
 }
 
-.bg-custom {
+div.bg-custom {
     background-color: #8c1d40 !important;
 }
 
@@ -50,7 +53,7 @@
 body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    color: #34495e !important;
+    color: #34495e;
     font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif;
     font-size: 15px;
     letter-spacing: 0;
@@ -83,3 +86,22 @@ img {
         margin-left: 0;
     }
 }
+
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color: var(--theme-color, #8c1d40);
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    cursor: pointer;
+}
+
+.my-float {
+    font-size: 2em;
+}
+

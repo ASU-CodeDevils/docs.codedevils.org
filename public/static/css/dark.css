@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600");
 
 :root {
-    --theme-color: #FFC627;
+    --theme-color: #FFC627 !important;
+    --background-color: #3f3f3f !important;
 }
 
 * {
@@ -377,7 +378,7 @@ body.sticky .sidebar-toggle {
 .markdown-section p.tip:before {
     background-color: #f66;
     border-radius: 100%;
-    color: #3f3f3f;
+    color: #f8f8f8;
     content: '!';
     font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
     font-size: 14px;
@@ -628,9 +629,6 @@ section.cover blockquote > p > a {
 section.cover blockquote > p > a:hover {
     color: var(--theme-color, #ea6f5a);
 }
-body {
-    background-color: #3f3f3f !important;
-}
 /* sidebar */
 .sidebar {
     background-color: #3f3f3f;
@@ -862,7 +860,7 @@ pre::after {
 }
 .markdown-section p.tip {
     background-color: #282828;
-    color: #657b83;
+    color: #c8c8c8;
 }
 input[type='search'] {
     background: #4f4f4f;

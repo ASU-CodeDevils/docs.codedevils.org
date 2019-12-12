@@ -1,0 +1,19 @@
+const LIGHT_THEME = 'light';
+const DARK_THEME = 'dark';
+
+function bgOnLoad() {
+    let theme = localStorage.getItem('docs-theme') || LIGHT_THEME;
+    $('head link#theme').attr('href', 'static/css/' + theme + '.css');
+}
+
+function fabOnClick() {
+    // get theme from local storage
+    let theme = localStorage.getItem('docs-theme') || LIGHT_THEME;
+    if(theme !== LIGHT_THEME && theme !== DARK_THEME) {
+        console.warn('Invalid docs-theme storage found. Defaulting to light theme.');
+    }
+    let newTheme = (theme === DARK_THEME) ? LIGHT_THEME : DARK_THEME;
+    $('head link#theme').attr('href', 'static/css/' + newTheme + '.css');
+    localStorage.setItem('docs-theme', newTheme);
+    location.reload();
+}

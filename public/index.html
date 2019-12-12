@@ -8,15 +8,15 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <!-- docsify theme -->
-    <link rel="stylesheet" href="static/css/styles.css" type="text/css">
-    <link rel="stylesheet" href="static/css/dark.css" type="text/css">
-
+    <link rel="stylesheet" href="static/css/styles.min.css" type="text/css">
+    <link id="theme" rel="stylesheet" href="static/css/light.min.css" type="text/css">
     <!-- bootstrap -->
     <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css">
     <!-- favicon -->
     <link rel="icon" type="image/png" href="favicon.png">
+    <script src="static/js/fab.min.js"></script>
 </head>
-<body>
+<body onload="bgOnLoad()">
 <!-- navbar -->
 <div class="navbar navbar-expand-lg navbar-dark bg-custom fixed-top">
     <a class="navbar-brand" href="#">
@@ -43,18 +43,11 @@
 <!-- docsify app body -->
 <div id="app"><br><br>Please wait...</div>
 
-<!-- floating action button -->
-<div class="fixed-action-btn">
-    <a class="btn-floating btn-large red">
-        <i class="large material-icons">mode_edit</i>
-    </a>
-    <ul>
-        <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-        <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-        <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-        <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-    </ul>
-</div>
+<!-- floating action button to change color scheme -->
+<button class="float" onclick="fabOnClick()">
+    <i class="fas fa-adjust my-float"></i>
+</button>
+
 <!-- docsify script config -->
 <script>
     const repo = 'https://github.com/KevinThePepper/codedevils_docs/';
@@ -67,11 +60,8 @@
         formatUpdated: '{YYYY}-{MM}-{DD}',
         // repo: repo
     };
-
-    $(document).ready(function(){
-        $('.fixed-action-btn').floatingActionButton();
-    });
 </script>
+<script src="static/js/fontawesome.min.js"></script>
 <script src="static/js/docsify.min.js"></script>
 <!-- custom google drive check plugin -->
 <script src="static/js/plugin/googleDriveCheckPlugin.min.js"></script>

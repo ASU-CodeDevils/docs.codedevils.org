@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600");
+
+:root {
+    --background-color: #fff;
+}
+
 * {
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -624,7 +629,7 @@ section.cover blockquote > p > a:hover {
     color: var(--theme-color, #42b983);
 }
 body {
-    background-color: #fff;
+    background-color: #fff !important;
 }
 /* sidebar */
 .sidebar {
