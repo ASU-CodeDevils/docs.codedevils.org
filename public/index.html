@@ -52,36 +52,13 @@
         auto2top: true,
         formatUpdated: '{YYYY}-{MM}-{DD}',
         // repo: repo
-        plugins: [
-            function(hook, vm) {
-                // hack for obtaining modified time
-                const req = new XMLHttpRequest();
-                req.open('GET', document.location, false);
-                req.send(null);
-                const modified = req.getResponseHeader('last-modified');
-
-                let footer = [
-                    `<hr/>`,
-                    `<small>`,
-                    `<div class="my-footer">`,
-                    `<div class="copyright"><a href="https://www.codedevils.org">CodeDevils</a> &copy; 2019. All rights reserved.</div>`,
-                    `<div class="modified">`,
-                    `Site modified: ` + modified,
-                    `</div>`,
-                    `</div>`,
-                    `</small>`
-                ].join('');
-
-                hook.afterEach(function (html) {
-                    return html + footer;
-                });
-            }
-        ]
     };
 </script>
 <script src="static/js/docsify.min.js"></script>
 <!-- custom google drive check plugin -->
-<script src="static/js/googleDriveCheck.min.js"></script>
+<script src="static/js/googleDriveCheck.js"></script>
+<!-- custom footer plugin -->
+<script src="static/js/addFooterPlugin.js"></script>
 <!-- support language highlighting (default is html, css, and js) -->
 <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
 <script src="//unpkg.com/prismjs/components/prism-python.min.js"></script>
