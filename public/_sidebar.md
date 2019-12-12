@@ -1,1 +1,1 @@
-<!-- blank sidebar to keep sidenav clear between transitions
+<!-- blank sidebar to keep sidenav clear between transitions -->
