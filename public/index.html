@@ -45,6 +45,16 @@
 <script>
     const repo = 'https://github.com/KevinThePepper/codedevils_docs/';
 
+    let failed_drive_str = '';
+    async function checkDrive() {
+        const response = await fetch('https://drive.google.com/', {mode: 'no-cors'});
+        if(response.status === 0) {
+            console.log('Failed to connect to Google Drive. Files/images contained on the Drive will not be loaded');
+            failed_drive_str = '!> Failed to connect to Google Drive. Some files/images may not be shown.\n\n';
+        }
+    }
+    checkDrive();
+
     window.$docsify = {
         coverpage: true,
         onlyCover: true,
@@ -62,16 +72,7 @@
 
                 // check whether or not the google drive can be reached
                 hook.beforeEach(function(content) {
-                    let xmlHttp = new XMLHttpRequest();
-                    xmlHttp.open("GET", 'https://drive.google.com/drive/u/1/my-drive', true);
-                    xmlHttp.send(null);
-                    if(xmlHttp.status === 0) {
-                        console.log('Failed to connect to Google Drive. Files/images contained on the Drive will not be loaded');
-                        const failed_drive_str = '!> Failed to connect to Google Drive. Some files/images may not be shown.\n\n';
-                        return failed_drive_str + content;
-                    } else {
-                        return content;
-                    }
+                    return failed_drive_str + content;
                 });
 
                 let footer = [
