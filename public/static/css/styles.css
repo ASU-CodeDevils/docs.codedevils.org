@@ -14,6 +14,18 @@
 }
 
 /* Copyright footer styling */
+.copyright {
+    float: left;
+}
+
+.modified, .modified-header {
+    float: right;
+}
+
+.copyright, .modified, div.modified-header {
+    font-size: 0.7em;
+}
+
 @media screen and (max-width: 875px) {
     .modified, .copyright {
         clear: left;
@@ -24,14 +36,6 @@
         overflow: hidden;
         float: right;
     }
-}
-
-.copyright {
-    float: left;
-}
-
-.modified {
-    float: right;
 }
 
 body:not(.ready) {
