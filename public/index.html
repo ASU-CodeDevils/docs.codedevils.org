@@ -62,21 +62,16 @@
 
                 // check whether or not the google drive can be reached
                 hook.beforeEach(function(content) {
-                    // check whether or not the google drive can be reached
                     let xmlHttp = new XMLHttpRequest();
-                    xmlHttp.onreadystatechange = function() {
-                        if (xmlHttp.readyState === 4 && xmlHttp.statusText === '(failed)') {
-                            alert(xmlHttp.readyState + ' ' + xmlHttp.statusText);
-                            console.log('Failed to connect to Google Drive. Files/images contained on the Drive will not be loaded');
-                            const failed_drive_str = '!> Failed to connect to Google Drive. Some files/images may not be shown.\n\n';
-                            content = failed_drive_str + content;
-                        }
-                        return content;
-                    };
-                    xmlHttp.open("GET", 'https://drive.google.com', true);
+                    xmlHttp.open("GET", 'https://drive.google.com/drive/u/1/my-drive', true);
                     xmlHttp.send(null);
-
-                    return content;
+                    if(xmlHttp.status === 0) {
+                        console.log('Failed to connect to Google Drive. Files/images contained on the Drive will not be loaded');
+                        const failed_drive_str = '!> Failed to connect to Google Drive. Some files/images may not be shown.\n\n';
+                        return failed_drive_str + content;
+                    } else {
+                        return content;
+                    }
                 });
 
                 let footer = [
