@@ -18,7 +18,6 @@
         if($docsify['driveAccessible'] === undefined) {
             // check connection to google drive
             let image = new Image();
-            image.crossOrigin = 'no-cors';
             image.onerror = () => {
                 console.error(failedMessage);
                 $docsify['driveAccessible'] = false;
