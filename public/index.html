@@ -45,17 +45,6 @@
 <script>
     const repo = 'https://github.com/KevinThePepper/codedevils_docs/';
 
-    // check connection to google drive
-    let failed_drive_str = '';
-    let image = new Image();
-    image.crossOrigin = 'no-cors';
-    image.onerror = () => {
-        console.log('Failed to connect to Google Drive. Files/images contained on the Drive will not be loaded');
-        failed_drive_str = '!> Failed to connect to Google Drive. Some files/images may not be shown.\n\n';
-    };
-    image.src = 'https://drive.google.com/uc?id=1dfSKTkPgHFAvW8RiIFludY6hstSshDHH';     // any logo on the drive will do
-
-
     window.$docsify = {
         coverpage: true,
         onlyCover: true,
@@ -83,16 +72,6 @@
                     `</small>`
                 ].join('');
 
-
-                // check whether or not the google drive can be reached
-                hook.beforeEach(function(content) {
-                    // add last modified to bottom of page
-                    const last_modified_str = '<div class="modified-header">Last Modified: <strong>{docsify-updated}</strong></div>\n\n';
-
-                    // append to the top the drive status check made earlier
-                    return failed_drive_str + last_modified_str + content;
-                });
-
                 hook.afterEach(function (html) {
                     return html + footer;
                 });
@@ -101,6 +80,8 @@
     };
 </script>
 <script src="static/js/docsify.min.js"></script>
+<!-- custom google drive check plugin -->
+<script src="static/js/googleDriveCheck.js"></script>
 <!-- support language highlighting (default is html, css, and js) -->
 <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
 <script src="//unpkg.com/prismjs/components/prism-python.min.js"></script>
