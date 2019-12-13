@@ -13,9 +13,10 @@
     box-sizing: border-box;
 }
 
-body, section.content {
+body, body.ready, section.content {
     background-color: var(--background-color, white) !important;
 }
+
 body:not(.ready) {
     overflow: hidden;
 }
@@ -478,6 +479,16 @@ body.close-side .content {
     }
 }
 @media screen and (max-width: 768px) {
+    .float{
+        width:40px;
+        height:40px;
+        bottom:10px;
+        right:10px;
+    }
+    .my-float {
+        font-size: 1em;
+    }
+
     .github-corner,
     .sidebar-toggle,
     .sidebar {
