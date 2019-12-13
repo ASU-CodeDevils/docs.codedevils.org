@@ -9,15 +9,15 @@ To create a news article by navigating to the [news management dashboard](https:
 or by going to the [organization action center dashboard](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils),
 opening the side drawer and selecting **News** from the menu:
 
-![](https://drive.google.com/uc?id=1Zfg-hgOCetNKHZznn8vza3244cHfMyVi)
+![side drawer](https://drive.google.com/uc?id=1Zfg-hgOCetNKHZznn8vza3244cHfMyVi)
 
 Then from the page that appears, select [**CREATE ARTICLE**](https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/news/create?backLabel=Back%20to%20News&backUrl=%2Fengage%2Factioncenter%2Forganization%2Fcodedevils%2Fnews%3F):
 
-![](https://drive.google.com/uc?id=1VL1sjMBV2_L-E-isW44tbLHVzoVOUWSr)
+![create article](https://drive.google.com/uc?id=1VL1sjMBV2_L-E-isW44tbLHVzoVOUWSr)
 
 The following form will appear:
 
-![](https://drive.google.com/uc?id=1PfKAfgB2jNJbp29d-_AO9_g5IBNmKHno)
+![create article form](https://drive.google.com/uc?id=1PfKAfgB2jNJbp29d-_AO9_g5IBNmKHno)
 
 Fill out all the appropriate fields:
 
@@ -33,7 +33,7 @@ There are 4 required fields in this section:
 
 The image of a news article appears to the left of the article in the [news article listing](https://asu.campuslabs.com/engage/news):
 
-![](https://drive.google.com/uc?id=1kxiJg3BkiqE9LedTwJoadK0Z8iKgVcMT)
+![article image](https://drive.google.com/uc?id=1kxiJg3BkiqE9LedTwJoadK0Z8iKgVcMT)
 
 If you do not know what image to select, or do not have an image for the news article, you should use the [CodeDevils logo](https://www.codedevils.org/public/static/home/img/logo.png). <<< TODO CHANGE TO SOLID BACKGROUND LOGO
 
@@ -41,7 +41,7 @@ If you do not know what image to select, or do not have an image for the news ar
 
 Visibility defines who can see the article:
 
-![](https://drive.google.com/uc?id=1f-bUaR9-pT87NrhWWTLFvDwgKMzQKVv7)
+![article visibility](https://drive.google.com/uc?id=1f-bUaR9-pT87NrhWWTLFvDwgKMzQKVv7)
 
 There are 4 viewing options:
 1. **Public** - Anyone
@@ -53,7 +53,7 @@ There are 4 viewing options:
 
 Select **CREATE ARTICLE** to publish the news article:
 
-![](https://drive.google.com/uc?id=16kGHPkzNe34O8WHcaErLFUHFXjPn4YvF)
+![create article](https://drive.google.com/uc?id=16kGHPkzNe34O8WHcaErLFUHFXjPn4YvF)
 
 ## Links
 * Create a CodeDevils News Article - https://asu.campuslabs.com/engage/actioncenter/organization/codedevils/news/create?backLabel=Back%20to%20News&backUrl=%2Fengage%2Factioncenter%2Forganization%2Fcodedevils%2Fnews%3F

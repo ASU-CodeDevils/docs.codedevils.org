@@ -30,7 +30,7 @@ There is a size limitation set to 100MB of server storage space for each inbox. 
 ##### Creating a Fully Hosted Inbox
 From _the_ mailbox manager page, select the [![create_new_email](https://drive.google.com/uc?id=1eCPnAkdkYibDuyaoD_bb1vC6ykTFCi2z)](https://panel.dreamhost.com/index.cgi?tree=mail.addresses&current_step=Index&next_step=New) button. Navigate to the _Fully Hosted Email_ section, which will look like:
 
-![](https://drive.google.com/uc?id=1oMPlMAYnbsIw6FYDKx4gNuhOC89WscPF)
+![fully hosted email](https://drive.google.com/uc?id=1oMPlMAYnbsIw6FYDKx4gNuhOC89WscPF)
 
 Fill in the respective fields with the following data:
 
@@ -47,12 +47,12 @@ Fill in the respective fields with the following data:
 
 Now that all the fields are filled in, the inbox should look similar to this Sandy Cheeks example:
 
-![]( https://drive.google.com/uc?id=1EzFjh4Cl4MWItSubYm5XB5ZBEor-AfS5)
+![create address]( https://drive.google.com/uc?id=1EzFjh4Cl4MWItSubYm5XB5ZBEor-AfS5)
 
-Select the ![](https://drive.google.com/uc?id=15_sqM2EgqBi_LX6QC8L3k6TBXHiERL4P)
+Select the ![create address](https://drive.google.com/uc?id=15_sqM2EgqBi_LX6QC8L3k6TBXHiERL4P)
  button once the form has been filled out. On the next page will be a confirmation message with the user&#39;s email and password:
 
-![](https://drive.google.com/uc?id=1PjFvakMi1EyDLiG1TqLbM_sa9QxKy35O)
+![creation confirmation](https://drive.google.com/uc?id=1PjFvakMi1EyDLiG1TqLbM_sa9QxKy35O)
 
 A few minutes past this confirmation message, the email address will be ready to use.
 
@@ -63,17 +63,17 @@ Forward-only emails are currently used for people outside of the organization an
 
 ##### Creating a Forward-only Email
 
-From _the_ mailbox manager page, select the [![](https://drive.google.com/uc?id=1kX12qrJ-Oh3VvJM8b-aoC9FiIicnYM2k)](https://panel.dreamhost.com/index.cgi?tree=mail.addresses&current_step=Index&next_step=New)
+From _the_ mailbox manager page, select the [![create new email address](https://drive.google.com/uc?id=1kX12qrJ-Oh3VvJM8b-aoC9FiIicnYM2k)](https://panel.dreamhost.com/index.cgi?tree=mail.addresses&current_step=Index&next_step=New)
  button. Navigate to the _Forward-Only Email_ section, which will look like:
 
-![](https://drive.google.com/uc?id=1iXy1v7WYBPRXcPgFjfFICpmRN1UwxAGF)
+![forward only email](https://drive.google.com/uc?id=1iXy1v7WYBPRXcPgFjfFICpmRN1UwxAGF)
 
 The fields are straight-forward:
 
 - **Email Address:** The email address of the forward-only email. Be sure to select _codedevils.org_ from the drop-down if it is not the default.
 - **List all email addresses to forward to, one per line:** Enter the list of all email addresses (at least one) to have the forward-only email address forward emails to.
 
-Select the [![](https://drive.google.com/uc?id=1pzWvexOUfZm_oqJ72JlvbibsLwai-JZu)](https://panel.dreamhost.com/index.cgi?tree=mail.addresses&current_step=Index&next_step=New) button to save the forward-only email.
+Select the [![forward to these addresses](https://drive.google.com/uc?id=1pzWvexOUfZm_oqJ72JlvbibsLwai-JZu)](https://panel.dreamhost.com/index.cgi?tree=mail.addresses&current_step=Index&next_step=New) button to save the forward-only email.
 
 #### Garbage Email
 ##### Configuration
@@ -82,17 +82,17 @@ A garbage email will delete all messages that it receives. It should not be used
 
 ##### Create a Garbage Email
 
-From _the_ mailbox manager page, select the [![](https://drive.google.com/uc?id=1WdOyv3fA5RjVxrH3fw-Sg_57ib1hWxlg)](https://panel.dreamhost.com/index.cgi?tree=mail.addresses&current_step=Index&next_step=New)
+From _the_ mailbox manager page, select the [![create new email address](https://drive.google.com/uc?id=1WdOyv3fA5RjVxrH3fw-Sg_57ib1hWxlg)](https://panel.dreamhost.com/index.cgi?tree=mail.addresses&current_step=Index&next_step=New)
  button. Navigate to the _Forward-Only Email_ section, which will look like:
 
-![](https://drive.google.com/uc?id=1Hu6G6y7n2DKAWNH11q514xjFrSozIsvH)
+![garbage email](https://drive.google.com/uc?id=1Hu6G6y7n2DKAWNH11q514xjFrSozIsvH)
 
 Enter the email address of the garbage email, and select _codedevils.org_ from the drop-down if it is not the default:
 
-![](https://drive.google.com/uc?id=1UYUXv5_umwYu0gHb2oIx-78HeJ2mecRd)
+![garbage email form](https://drive.google.com/uc?id=1UYUXv5_umwYu0gHb2oIx-78HeJ2mecRd)
 
 Select 
-![](https://drive.google.com/uc?id=1Z1L9Y-KyiGIjbqoWcS08Feb4PBIVmhjh)
+![create garbage account](https://drive.google.com/uc?id=1Z1L9Y-KyiGIjbqoWcS08Feb4PBIVmhjh)
  to save the email address.
 
 ### Accessing an Inbox
@@ -116,40 +116,40 @@ The owner can log in using their email and password. The link is the same for al
 
 The link contained in this section leads to the webmail interface that is used to check and send emails.
 
-![](https://drive.google.com/uc?id=1JnrZwKA9DLX-pfWQzVCzbiVSSmEQivFd)
+![check web email](https://drive.google.com/uc?id=1JnrZwKA9DLX-pfWQzVCzbiVSSmEQivFd)
 
 ##### Change Your Password
 
 Change the inbox password by entering the new password in both fields.
 
-![](https://drive.google.com/uc?id=1B3sBwagA02_JTds6I_3z9-pMXyAJ0oyp)
+![change password](https://drive.google.com/uc?id=1B3sBwagA02_JTds6I_3z9-pMXyAJ0oyp)
 
 ##### Email Client Configuration
 
 The client configuration dispalys the required information to allow the owner to use their inbox in a third-party email application (i.e. Gmail, Email App, Apple Mail, etc).
 
-![](https://drive.google.com/uc?id=1LYa8OVMnsd_FWU1Op6ttFZ8s_KxAZRHK)
+![email client config](https://drive.google.com/uc?id=1LYa8OVMnsd_FWU1Op6ttFZ8s_KxAZRHK)
 
 ##### Inbox Housekeeping
 
 Configuration settings can be changed by each owner, but these settings should only be managed by administrators. Changes to these fields need to be run by a webmaster before updating.
 
-![](https://drive.google.com/uc?id=1Tg9x0VSaIxD2lNzf7QUzvpB_DAKDTPLS)
+![inbox housekeeping](https://drive.google.com/uc?id=1Tg9x0VSaIxD2lNzf7QUzvpB_DAKDTPLS)
 
 ##### Junkmail Quarantine
 
 The link contained in this section leads the owner of the inbox to a separate whitelisting page. The whitelisting page (known as the junkmail quarantine) acts as a filter and contains a list of emails addresses marked as &quot;whitelisted&quot; or &quot;blacklisted&quot;. Whitelisted emails are trusted email addresses whose content can be viewed safely. Blacklisted emails are blocked and filtered into a separate junk mail folder.
 
-![](https://drive.google.com/uc?id=1lVhMr0buhcm8nsI6eywLv9p-664F-AW4)
+![junkmail quaruntine](https://drive.google.com/uc?id=1lVhMr0buhcm8nsI6eywLv9p-664F-AW4)
 
 ##### Email Filters
 
 Email filters are a collection of rules that parse an incoming message and perform action based on logical criteria. It works just as any other email management system would, and allows you to create rules using the subject, who it was sent to, etc.
 
-![](https://drive.google.com/uc?id=1UkdSEylTSYqP4IOBaoCCZAIUtWG09MYH)
+![email filters](https://drive.google.com/uc?id=1UkdSEylTSYqP4IOBaoCCZAIUtWG09MYH)
 
 ##### Auto-Responder
 
 Incoming emails can be set to be responded to automatically for a time period. The automatic email is custom and supports HTML formatting.
 
-![](https://drive.google.com/uc?id=1aYp0_OciOAPa9Tg1wkLHEtBiJ1DxuwnJ)
+![auto responder](https://drive.google.com/uc?id=1aYp0_OciOAPa9Tg1wkLHEtBiJ1DxuwnJ)
