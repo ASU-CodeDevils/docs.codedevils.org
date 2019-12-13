@@ -2,7 +2,7 @@
 
 :root {
     --theme-color: #FFC627 !important;
-    --background-color: #3f3f3f !important;
+    --background-color: #3f3f3f;
 }
 .progress {
     background-color: var(--theme-color, #ea6f5a);

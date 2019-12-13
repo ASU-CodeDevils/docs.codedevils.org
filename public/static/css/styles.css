@@ -13,8 +13,8 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: var(--background-color, white);
+body, section.content {
+    background-color: var(--background-color, white) !important;
 }
 body:not(.ready) {
     overflow: hidden;
@@ -130,6 +130,11 @@ img {
     box-shadow: 2px 2px 3px #999;
     cursor: pointer;
     outline: none;
+}
+
+/* removes blue outline in chrome */
+button.float:focus {
+    outline: 0;
 }
 
 .my-float {

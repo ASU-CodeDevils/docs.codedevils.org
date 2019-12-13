@@ -19,9 +19,9 @@ function getValidThemeFromStorage() {
 function bgOnLoad() {
     let theme = getValidThemeFromStorage();
     let currentTheme = $('head link#theme').attr('href');
-    let storedTheme = 'static/css/' + theme + '.css';
+    let storedTheme = 'static/css/' + theme + '.min.css';
     if(currentTheme !== storedTheme) {
-        $('head link#theme').attr('href', 'static/css/' + theme + '.css');
+        $('head link#theme').attr('href', 'static/css/' + theme + '.min.css');
     }
 }
 
@@ -32,6 +32,6 @@ function bgOnLoad() {
 function fabOnClick() {
     let theme = getValidThemeFromStorage();
     let newTheme = (theme === DARK_THEME) ? LIGHT_THEME : DARK_THEME;
-    $('head link#theme').attr('href', 'static/css/' + newTheme + '.css');
+    $('head link#theme').attr('href', 'static/css/' + newTheme + '.min.css');
     localStorage.setItem('docs-theme', newTheme);
 }
