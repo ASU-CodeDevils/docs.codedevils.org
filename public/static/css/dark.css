@@ -11,6 +11,12 @@ body {
 body.close-side .sidebar-toggle {
     background-color: rgba(63, 63, 63, 0.8) !important;
 }
+img.cd-logo {
+    display: none;
+}
+img.cd-logo-light {
+    display: inline-block;
+}
 .github-corner svg {
     color: #3f3f3f;
 }
