@@ -16,6 +16,9 @@ body {
     background-color: transparent;
     background-color: rgba(255,255,255,0.8);
 }
+.search {
+    border-right: none;
+}
 .markdown-section p.tip em {
     color: #34495e;
 }

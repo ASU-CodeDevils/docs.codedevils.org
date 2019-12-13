@@ -42,6 +42,9 @@ section.cover.has-mask .mask {
 .sidebar ul li a {
     color: #c8c8c8;
 }
+.search {
+    border-bottom: 1px solid rgba(0,0,0,0.07) !important;
+}
 /* markdown content found on pages */
 .markdown-section h1,
 .markdown-section h2,
