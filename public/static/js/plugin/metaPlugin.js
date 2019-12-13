@@ -5,6 +5,13 @@
  * @version 1.01
  */
 (function () {
+    const getTextFromHtml = html => {
+        let div = document.createElement("div");
+        div.innerHTML = html;
+        let text = div.textContent || div.innerText || "";
+        return text.replace(/(\r\n|\n|\r|\t)/gm,' ');
+    };
+
     /**
      * Appends the custom footer to the bottom of the page.
      *
@@ -12,7 +19,8 @@
      * @returns {string} The custom footer appended to the rendered html.
      */
     const after = html => {
-
+        let text = getTextFromHtml(html);
+        console.log(text)
     };
 
     /**
@@ -30,6 +38,10 @@
 /*
 Meta information to be filled:
 
+<meta name="designer" content="">
+<meta name="reply-to" content="email@hotmail.com">
+<meta name="category" content="">
+<meta name="author" content="">
 <meta name="revised" content="Sunday, July 18th, 2010, 5:15 pm"/>
 <meta name="abstract" content="">
 <meta name="topic" content="">
@@ -38,6 +50,37 @@ Meta information to be filled:
 <meta name="description" content="CodeDevils documentation"/>
 <meta name="subject" content="CodeDevils Documentation">
 
-
-
+<!-- opengraph meta tags -->
+<meta name="og:title" content="The Rock"/>
+<meta name="og:type" content="movie"/>
+<meta name="og:url" content="http://www.imdb.com/title/tt0117500/"/>
+<meta name="og:image" content="http://ia.media-imdb.com/rock.jpg"/>
+<meta name="og:site_name" content="IMDb"/>
+<meta name="og:description" content="A group of U.S. Marines, under command of..."/>
+<meta name="fb:page_id" content="43929265776" />
+<meta name="og:email" content="me@example.com"/>
+<meta name="og:phone_number" content="650-123-4567"/>
+<meta name="og:fax_number" content="+1-415-123-4567"/>
+<meta name="og:latitude" content="37.416343"/>
+<meta name="og:longitude" content="-122.153013"/>
+<meta name="og:street-address" content="1601 S California Ave"/>
+<meta name="og:locality" content="Palo Alto"/>
+<meta name="og:region" content="CA"/>
+<meta name="og:postal-code" content="94304"/>
+<meta name="og:country-name" content="USA"/>
+<meta property="og:type" content="game.achievement"/>
+<meta property="og:points" content="POINTS_FOR_ACHIEVEMENT"/>
+<meta property="og:video" content="http://example.com/awesome.swf" />
+<meta property="og:video:height" content="640" />
+<meta property="og:video:width" content="385" />
+<meta property="og:video:type" content="application/x-shockwave-flash" />
+<meta property="og:video" content="http://example.com/html5.mp4" />
+<meta property="og:video:type" content="video/mp4" />
+<meta property="og:video" content="http://example.com/fallback.vid" />
+<meta property="og:video:type" content="text/html" />
+<meta property="og:audio" content="http://example.com/amazing.mp3" />
+<meta property="og:audio:title" content="Amazing Song" />
+<meta property="og:audio:artist" content="Amazing Band" />
+<meta property="og:audio:album" content="Amazing Album" />
+<meta property="og:audio:type" content="application/mp3" />
  */
