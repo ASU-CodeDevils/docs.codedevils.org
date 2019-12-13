@@ -6,10 +6,10 @@
 body {
     color: #34495e;
 }
-img.cd-logo-light {
+.dark-theme {
     display: none;
 }
-img.cd-logo {
+.light-theme {
     display: inline-block;
 }
 .github-corner svg {

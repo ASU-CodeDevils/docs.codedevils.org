@@ -11,10 +11,10 @@ body {
 body.close-side .sidebar-toggle {
     background-color: rgba(63, 63, 63, 0.8) !important;
 }
-img.cd-logo {
+.light-theme {
     display: none;
 }
-img.cd-logo-light {
+.dark-theme {
     display: inline-block;
 }
 .github-corner svg {

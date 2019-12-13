@@ -1,5 +1,5 @@
-<img class="no-shadow cd-logo" src="https://www.codedevils.org/public/static/home/img/logo.png" alt="logo" width="400">
-<img class="no-shadow cd-logo-light" src="https://www.codedevils.org/public/static/home/img/logo-light.png" alt="logo" width="400">
+<img class="no-shadow light-theme" src="https://www.codedevils.org/public/static/home/img/logo.png" alt="logo" width="400">
+<img class="no-shadow dark-theme" src="https://www.codedevils.org/public/static/home/img/logo-light.png" alt="logo" width="400">
 
 # Documentation <small>1.0.1</small>
 
