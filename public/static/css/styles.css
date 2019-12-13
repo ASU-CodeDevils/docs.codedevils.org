@@ -1,5 +1,5 @@
 :root {
-    --theme-color: #8c1d40;
+    --theme-color: #75103B;
     --background-color: white;
 }
 
@@ -21,7 +21,6 @@ body:not(.ready) {
     overflow: hidden;
 }
 body:not(.ready) [data-cloak],
-body:not(.ready) .app-nav,
 body:not(.ready) > nav {
     display: none;
 }
@@ -65,7 +64,7 @@ div#app:empty::before {
 }
 
 div.bg-custom {
-    background-color: #8c1d40 !important;
+    background-color: #75103B !important;
 }
 
 .nav-item:first-child {
@@ -77,9 +76,157 @@ div.bg-custom {
         margin-left: 0;
     }
 }
-
+kbd {
+    border: solid 1px #ccc;
+}
+.github-corner svg {
+    fill: var(--theme-color);
+}
 .nav-item {
     margin-right: 20px;
+}
+.progress {
+    background-color: var(--theme-color);
+}
+.search a:hover {
+    color: var(--theme-color);
+}
+.search .search-keyword {
+    color: var(--theme-color);
+}
+pre::after {
+    color: #ccc;
+}
+section.cover .cover-main > p:last-child a {
+    border-color: var(--theme-color);
+    color: var(--theme-color);
+}
+section.cover .cover-main > p:last-child a:last-child {
+    background-color: var(--theme-color);
+    color: #fff;
+}
+section.cover blockquote > p > a {
+    border-bottom: 2px solid var(--theme-color);
+}
+section.cover blockquote > p > a:hover {
+    color: var(--theme-color);
+}
+.sidebar {
+    border-right: 1px solid rgba(0,0,0,0.07);
+}
+.sidebar:hover::-webkit-scrollbar-thumb {
+    background: rgba(136,136,136,0.4);
+}
+.sidebar:hover::-webkit-scrollbar-track {
+    background: rgba(136,136,136,0.1);
+}
+.sidebar ul li.active > a {
+    color: var(--theme-color);
+}
+.sidebar-toggle span {
+    background-color: var(--theme-color);
+}
+/* code highlight */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: #8e908c;
+}
+.token.boolean,
+.token.number {
+    color: #c76b29;
+}
+.token.punctuation {
+    color: #525252;
+}
+.token.property {
+    color: #c08b30;
+}
+.token.tag {
+    color: #2973b7;
+}
+.token.string {
+    color: var(--theme-color);
+}
+.token.selector {
+    color: #6679cc;
+}
+.token.attr-name {
+    color: #2973b7;
+}
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+    color: #22a2c9;
+}
+.token.attr-value,
+.token.control,
+.token.directive,
+.token.unit {
+    color: var(--theme-color, #42b983);
+}
+.token.keyword,
+.token.function {
+    color: #e96900;
+}
+.token.statement,
+.token.regex,
+.token.atrule {
+    color: #22a2c9;
+}
+.token.placeholder,
+.token.variable {
+    color: #3d8fd1;
+}
+.token.inserted {
+    border-bottom: 1px dotted #202746;
+}
+.token.important {
+    color: #c94922;
+}
+.markdown-section hr {
+    border-bottom: 1px solid #eee;
+}
+.markdown-section iframe {
+    border: 1px solid #eee;
+}
+.markdown-section th {
+    border: 1px solid #ddd;
+}
+.markdown-section td {
+    border: 1px solid #ddd;
+}
+.markdown-section tr {
+    border-top: 1px solid #ccc;
+}
+.markdown-section tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+.markdown-section p.tip {
+    background-color: #f8f8f8;
+    border-left: 4px solid #f66;
+}
+.markdown-section p.tip:before {
+    background-color: #f66;
+    color: #fff;
+}
+.markdown-section a {
+    color: var(--theme-color);
+}
+.markdown-section blockquote {
+    border-left: 4px solid var(--theme-color);
+    color: #858585;
+}
+.markdown-section p.tip code {
+    background-color: #efefef;
+}
+.markdown-section h6 {
+    color: #777;
+}
+.markdown-section em {
+    color: #7f8c8d;
 }
 
 body {
@@ -189,77 +336,6 @@ li input[type='checkbox'] {
     margin: 0 0.2em 0.25em 0;
     vertical-align: middle;
 }
-.app-nav {
-    margin: 25px 60px 0 0;
-    position: absolute;
-    right: 0;
-    text-align: right;
-    z-index: 10;
-    /* navbar dropdown */
-}
-.app-nav.no-badge {
-    margin-right: 25px;
-}
-.app-nav p {
-    margin: 0;
-}
-.app-nav > a {
-    margin: 0 1rem;
-    padding: 5px 0;
-}
-.app-nav ul,
-.app-nav li {
-    display: inline-block;
-    list-style: none;
-    margin: 0;
-}
-.app-nav a {
-    color: inherit;
-    font-size: 16px;
-    text-decoration: none;
-    -webkit-transition: color 0.3s;
-    transition: color 0.3s;
-}
-.app-nav li {
-    display: inline-block;
-    margin: 0 1rem;
-    padding: 5px 0;
-    position: relative;
-}
-.app-nav li ul {
-    border-radius: 4px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    display: none;
-    max-height: calc(100vh - 61px);
-    overflow-y: auto;
-    padding: 10px 0;
-    position: absolute;
-    right: -15px;
-    text-align: left;
-    top: 100%;
-    white-space: nowrap;
-}
-.app-nav li ul li {
-    display: block;
-    font-size: 14px;
-    line-height: 1rem;
-    margin: 0;
-    margin: 8px 14px;
-    white-space: nowrap;
-}
-.app-nav li ul a {
-    display: block;
-    font-size: inherit;
-    margin: 0;
-    padding: 0;
-}
-.app-nav li ul a.active {
-    border-bottom: 0;
-}
-.app-nav li:hover ul {
-    display: block;
-}
 .github-corner {
     border-bottom: 0;
     position: fixed;
@@ -319,10 +395,6 @@ main.hidden {
 .sidebar > h1 a {
     color: inherit;
     text-decoration: none;
-}
-.sidebar > h1 .app-nav {
-    display: block;
-    position: static;
 }
 .sidebar .sidebar-nav {
     line-height: 2em;
@@ -474,7 +546,7 @@ body.close-side .content {
     .github-corner,
     .sidebar-toggle,
     .sidebar,
-    .app-nav {
+    .navbar {
         display: none;
     }
 }
@@ -493,12 +565,6 @@ body.close-side .content {
     .sidebar-toggle,
     .sidebar {
         position: fixed;
-    }
-    .app-nav {
-        margin-top: 16px;
-    }
-    .app-nav li ul {
-        top: 30px;
     }
     main {
         height: auto;
@@ -521,7 +587,6 @@ body.close-side .content {
         transition: transform 250ms ease;
         transition: transform 250ms ease, -webkit-transform 250ms ease;
     }
-    .app-nav,
     .github-corner {
         -webkit-transition: -webkit-transform 250ms ease-out;
         transition: -webkit-transform 250ms ease-out;
@@ -547,7 +612,6 @@ body.close-side .content {
         -webkit-transform: translateX(300px);
         transform: translateX(300px);
     }
-    body.close-side .app-nav,
     body.close-side .github-corner {
         display: none;
     }

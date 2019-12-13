@@ -3,87 +3,18 @@
 :root {
     --background-color: #fff;
 }
-.progress {
-    background-color: var(--theme-color, #42b983);
-}
-.search a:hover {
-    color: var(--theme-color, #42b983);
-}
-.search .search-keyword {
-    color: var(--theme-color, #42b983);
-}
 body {
     color: #34495e;
 }
-kbd {
-    border: solid 1px #ccc;
-}
-.app-nav a {
-    color: inherit;
-}
-.app-nav a:hover {
-    color: var(--theme-color, #42b983);
-}
-.app-nav a.active {
-    border-bottom: 2px solid var(--theme-color, #42b983);
-    color: var(--theme-color, #42b983);
-}
-.app-nav li ul {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-bottom-color: #ccc;
-}
 .github-corner svg {
     color: #fff;
-    fill: var(--theme-color, #42b983);
 }
 .anchor span {
     color: #34495e;
 }
-.sidebar {
-    border-right: 1px solid rgba(0,0,0,0.07);
-}
-.sidebar:hover::-webkit-scrollbar-thumb {
-    background: rgba(136,136,136,0.4);
-}
-.sidebar:hover::-webkit-scrollbar-track {
-    background: rgba(136,136,136,0.1);
-}
 .sidebar-toggle {
     background-color: transparent;
     background-color: rgba(255,255,255,0.8);
-}
-.sidebar-toggle span {
-    background-color: var(--theme-color, #42b983);
-}
-.markdown-section hr {
-    border-bottom: 1px solid #eee;
-}
-.markdown-section iframe {
-    border: 1px solid #eee;
-}
-.markdown-section th {
-    border: 1px solid #ddd;
-}
-.markdown-section td {
-    border: 1px solid #ddd;
-}
-.markdown-section tr {
-    border-top: 1px solid #ccc;
-}
-.markdown-section tr:nth-child(2n) {
-    background-color: #f8f8f8;
-}
-.markdown-section p.tip {
-    background-color: #f8f8f8;
-    border-left: 4px solid #f66;
-}
-.markdown-section p.tip:before {
-    background-color: #f66;
-    color: #fff;
-}
-.markdown-section p.tip code {
-    background-color: #efefef;
 }
 .markdown-section p.tip em {
     color: #34495e;
@@ -99,20 +30,6 @@ kbd {
 section.cover.has-mask .mask {
     background-color: #fff;
 }
-section.cover .cover-main > p:last-child a {
-    border-color: var(--theme-color, #42b983);
-    color: var(--theme-color, #42b983);
-}
-section.cover .cover-main > p:last-child a:last-child {
-    background-color: var(--theme-color, #42b983);
-    color: #fff;
-}
-section.cover blockquote > p > a {
-    border-bottom: 2px solid var(--theme-color, #42b983);
-}
-section.cover blockquote > p > a:hover {
-    color: var(--theme-color, #42b983);
-}
 body {
     background-color: #fff !important;
 }
@@ -127,9 +44,6 @@ body {
 .sidebar ul li a {
     color: #505d6b;
 }
-.sidebar ul li.active > a {
-    color: var(--theme-color, #42b983);
-}
 /* markdown content found on pages */
 .markdown-section h1,
 .markdown-section h2,
@@ -139,19 +53,6 @@ body {
     color: #2c3e50;
     font-weight: 600;
 }
-.markdown-section a {
-    color: var(--theme-color, #42b983);
-}
-.markdown-section h6 {
-    color: #777;
-}
-.markdown-section blockquote {
-    border-left: 4px solid var(--theme-color, #42b983);
-    color: #858585;
-}
-.markdown-section em {
-    color: #7f8c8d;
-}
 .markdown-section code {
     background-color: #f8f8f8;
     color: #e96900;
@@ -159,70 +60,7 @@ body {
 .markdown-section pre {
     background-color: #f8f8f8;
 }
-/* code highlight */
-.token.comment,
-.token.prolog,
-.token.doctype,
-.token.cdata {
-    color: #8e908c;
-}
-.token.boolean,
-.token.number {
-    color: #c76b29;
-}
-.token.punctuation {
-    color: #525252;
-}
-.token.property {
-    color: #c08b30;
-}
-.token.tag {
-    color: #2973b7;
-}
-.token.string {
-    color: var(--theme-color, #42b983);
-}
-.token.selector {
-    color: #6679cc;
-}
-.token.attr-name {
-    color: #2973b7;
-}
-.token.entity,
-.token.url,
-.language-css .token.string,
-.style .token.string {
-    color: #22a2c9;
-}
-.token.attr-value,
-.token.control,
-.token.directive,
-.token.unit {
-    color: var(--theme-color, #42b983);
-}
-.token.keyword,
-.token.function {
-    color: #e96900;
-}
-.token.statement,
-.token.regex,
-.token.atrule {
-    color: #22a2c9;
-}
-.token.placeholder,
-.token.variable {
-    color: #3d8fd1;
-}
-.token.inserted {
-    border-bottom: 1px dotted #202746;
-}
-.token.important {
-    color: #c94922;
-}
 .markdown-section pre > code {
     background-color: #f8f8f8;
     color: #525252;
-}
-pre::after {
-    color: #ccc;
 }
