@@ -13,6 +13,15 @@
     box-sizing: border-box;
 }
 
+.image-accessory tbody, td, tr {
+    border: 0 !important;
+    outline: none !important;
+}
+
+.image-accessory td > img {
+    box-shadow: none !important;
+}
+
 body, body.ready, section.content {
     background-color: var(--background-color, white) !important;
 }
