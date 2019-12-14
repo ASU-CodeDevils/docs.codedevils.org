@@ -6,7 +6,7 @@ pages into html.
 
 ## Contributing
 To publish a page on the website, simply create a markdown and send it as an email attachment to 
-![webmaster@codedevils.org](mailto:webmaster@codedevils.org?subject="Publish Page to CD Docs").
+[webmaster@codedevils.org](mailto:webmaster@codedevils.org?subject=Publish Page to CD Docs).
 
 ## Additional Features
 There are additional features added to the project that make it easier to publish pages.
