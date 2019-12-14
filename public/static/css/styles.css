@@ -605,6 +605,9 @@ body.close-side .content {
         transition: transform 250ms ease;
         transition: transform 250ms ease, -webkit-transform 250ms ease;
     }
+    .cover-main {
+        margin-top: 40px !important;
+    }
     .github-corner {
         -webkit-transition: -webkit-transform 250ms ease-out;
         transition: -webkit-transform 250ms ease-out;
