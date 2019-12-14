@@ -14,7 +14,7 @@
      * @returns {string[]} The component cleaned and split by an array.
      */
     function getComponentsArray(component) {
-        let cleanedComp = component.trim().substr(2, component.length - 4);
+        let cleanedComp = component.trim().substr(5, component.length - 10);
         return cleanedComp.split('|');
     }
 
@@ -33,23 +33,22 @@
     };
 
     /**
-     * Parses the docsify-rendered markdown content and replaces each instance of the
+     * Parses the docsify-rendered html content and replaces each instance of the
      * custom image accessory tag. If none exists, the content is returned.
-     * @param content The docsify-rendered markdown content.
-     * @returns {*|void|string} The content with custom image accessory tags replaced
+     * @param html The docsify-rendered html content.
+     * @returns {*|void|string} The html content with custom image accessory tags replaced
      *  by html tables.
      */
-    const before = content => {
-        let imageStamps = content.match(/<:.*?:>/g);
-        if(!imageStamps) return content;
+    const after = html => {
+        let imageStamps = html.match(/&lt;:([\S\s]*?):&gt;/);
+        if(!imageStamps) return html;
 
         let tableComponent;
         for(let i = 0; i < imageStamps.length; i++) {
             tableComponent = componentToHtmlTable(imageStamps[i]);
-            content = content.replace(imageStamps[i], tableComponent);
+            html = html.replace(imageStamps[i], tableComponent);
         }
-        console.log(content);
-        return content;
+        return html;
     };
 
     /**
@@ -58,7 +57,7 @@
      * @param hook The docsify hook.
      */
     const imageParser = hook => {
-        hook.beforeEach(content => before(content));
+        hook.afterEach(html => after(html));
     };
 
     $docsify.plugins = [].concat(imageParser, $docsify.plugins);
