@@ -75,6 +75,11 @@ div.bg-custom {
     .nav-item:first-child {
         margin-left: 0;
     }
+
+    .navbar-toggler {
+        border: none !important;
+        outline: none !important;
+    }
 }
 kbd {
     border: solid 1px #ccc;
