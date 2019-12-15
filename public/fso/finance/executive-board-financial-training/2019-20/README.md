@@ -59,4 +59,5 @@ decide not to use the Canvas documentation, it's still smart to have open during
 | **Recognition item** | Recognizing someone for service/leadership with an item, such as a trophy. |
 | **Workday** | ASU&#39;s accounting system. |
 
+---
 [Next Section: Funding Sources and Types >>](/fso/finance/executive-board-financial-training/2019-20/funding-sources-and-types)
