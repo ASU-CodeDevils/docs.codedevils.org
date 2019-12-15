@@ -82,3 +82,15 @@ input[type='search'] {
     border-color: #4f4f4f;
     color: #c8c8c8;
 }
+.markdown-section th {
+    border: 1px solid #c8c8c8;
+}
+.markdown-section td {
+    border: 1px solid #c8c8c8;
+}
+.markdown-section tr {
+    border-top: 1px solid #c8c8c8;
+}
+.markdown-section tr:nth-child(2n) {
+    background-color: #282828;
+}

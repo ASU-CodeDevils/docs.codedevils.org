@@ -13,7 +13,9 @@
     box-sizing: border-box;
 }
 
-.image-accessory tbody, td, tr {
+.image-accessory tbody,
+.image-accessory td,
+.image-accessory tr {
     border: 0 !important;
     outline: none !important;
 }
@@ -205,18 +207,6 @@ section.cover blockquote > p > a:hover {
 }
 .markdown-section iframe {
     border: 1px solid #eee;
-}
-.markdown-section th {
-    border: 1px solid #ddd;
-}
-.markdown-section td {
-    border: 1px solid #ddd;
-}
-.markdown-section tr {
-    border-top: 1px solid #ccc;
-}
-.markdown-section tr:nth-child(2n) {
-    background-color: #f8f8f8;
 }
 .markdown-section p.tip {
     background-color: #f8f8f8;
@@ -499,7 +489,6 @@ body.sticky .sidebar-toggle {
     margin-top: 0 !important;
 }
 .markdown-section hr {
-    border: none;
     margin: 2em 0;
 }
 .markdown-section iframe {
