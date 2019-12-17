@@ -40,7 +40,7 @@
      *  by html tables.
      */
     const after = html => {
-        let imageStamps = html.match(/&lt;:([\S\s]*?):&gt;/);
+        let imageStamps = html.match(/&lt;:([\S\s]*?):&gt;/g);
         if(!imageStamps) return html;
 
         let tableComponent;
