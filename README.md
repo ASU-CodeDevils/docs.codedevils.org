@@ -11,6 +11,12 @@ To publish a page on the website, simply create a markdown and send it as an ema
 ## Additional Features
 There are additional features added to the project that make it easier to publish pages.
 
+### Image Shadowing
+By default, all images have shadows. If you want to disable the shadow, you can add a `no-shadow` class to your image:
+```html
+<img class="no-shadow" alt="logo" src="https://drive.google.com/uc?id=1561NfmfYh7kaglPBZ3xzVYPuz5WvevKg">
+```
+
 ### Theme-minded Blocks
 You can add `.light-theme` or `.dark-theme` classes to your inline html tags to make your html blocks theme-specific.
 Light theme is the theme with a white background, and dark theme is the theme with a dark grey background. A common
