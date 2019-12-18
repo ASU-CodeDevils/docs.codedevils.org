@@ -24,6 +24,10 @@
     box-shadow: none !important;
 }
 
+.github-corner {
+    margin-top: 63px;
+}
+
 body, body.ready, section.content {
     background-color: var(--background-color, white) !important;
 }
@@ -56,6 +60,7 @@ div#app:empty::before {
 
 .modified, .modified-header {
     float: right;
+    margin-right: 40px;
 }
 
 .copyright, .modified, div.modified-header {
