@@ -9,3 +9,6 @@ To add it, click the <a href="https://slack.com/oauth/authorize?client_id=902445
 button. We are still working on making this application easier to distribute, but for right now Flameboi is used solely
 for our organization.
 :>
+
+You can see the GitHub documentation [here](https://asu-codedevils.github.io/flameboi-slack-api/index.html) if you are
+developing the Flameboi API.
