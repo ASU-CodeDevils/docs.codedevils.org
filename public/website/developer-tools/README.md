@@ -23,6 +23,6 @@ during registration, post to channels and send welcome letters to new CodeDevils
 to learn how to develop a Slack application. :>
 
 ## Webmaster Changelog
-<: <img alt="changelog" src="http://cdn.onlinewebfonts.com/svg/img_194363.png" width="250"> |
+<: <img alt="changelog" class="light-theme" src="https://drive.google.com/uc?id=19kyZ7JqdbK1-aWALcnOayisfqricq3I_" width="250"> <img alt="changelog" class="dark-theme" src="https://drive.google.com/uc?id=1BrsWpelPZ4bsDlQKFyPlEy7-DB2TJqWK" width="250"> |
 We make periodic updates to the website to better both our security and API tools. Check out the 
 [webmaster changelog](/website/developer-tools/webmaster-changelog) to see what kind of updates we're making. :>
