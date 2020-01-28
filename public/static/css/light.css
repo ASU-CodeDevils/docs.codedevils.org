@@ -12,6 +12,9 @@ body {
 .light-theme {
     display: inline-block;
 }
+div.bg-custom {
+    background-color: #75103B !important;
+}
 .github-corner svg {
     color: #fff;
 }
