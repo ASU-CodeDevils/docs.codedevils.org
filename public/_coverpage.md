@@ -5,7 +5,7 @@
 
 > Knowledge base for all things CodeDevils.
 
-[GitHub](https://github.com/KevinThePepper/codedevils_docs)
+[GitHub](https://github.com/ASU-CodeDevils/docs.codedevils.org/)
 [Get Started](/overview)
 
 ![](#f5f5f5)

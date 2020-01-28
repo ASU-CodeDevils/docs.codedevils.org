@@ -52,6 +52,11 @@ There are additional features added to the project that make it easier to publis
 ### Optional HTML Pages
 You have the option of including straight HTML pages in your documentation. HTML files will be left as-is and include
 the `.html` file extension at the end of the directory.
+### Image Shadowing
+By default, all images have shadows. If you want to disable the shadow, you can add a `no-shadow` class to your image:
+```html
+<img class="no-shadow" alt="logo" src="https://drive.google.com/uc?id=1561NfmfYh7kaglPBZ3xzVYPuz5WvevKg">
+```
 
 ### Theme-minded Blocks
 You can add `.light-theme` or `.dark-theme` classes to your inline html tags to make your html blocks theme-specific.
