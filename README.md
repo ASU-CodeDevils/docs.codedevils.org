@@ -20,15 +20,15 @@ It's that easy!
 CDDocs uses the same folder structure specified through the [docsify](https://docsify.js.org/#/) documentation. The root
 of the project is the `public` folder:
 
-.
-+-- public/
-|   +-- dreamhost/
-|   |   +-- _sidebar.md
-|   |   +-- email.md
-|   |   +-- README.md
-|   +-- fso/
-|   +-- sundevilsync/
-|   +-- static/
+
+|-- public/
+|-- dreamhost/
+|   |-- _sidebar.md
+|   |-- email.md
+|   |-- README.md
+|-- fso/
+|-- sundevilsync/
+|-- static/
 
 #### File/directory Defaults
 Each folder represents a directory on the CDDocs website. For example, the `public/dreamhost` is the same as
