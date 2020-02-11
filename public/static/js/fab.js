@@ -8,8 +8,8 @@ const DARK_THEME = 'dark';
  * @returns {string} The theme stored in local storage.
  */
 function getValidThemeFromStorage() {
-    let theme = localStorage.getItem('docs-theme') || LIGHT_THEME;
-    return (theme === LIGHT_THEME || theme === DARK_THEME) ? theme : LIGHT_THEME;
+    let theme = localStorage.getItem('docs-theme') || DARK_THEME;
+    return (theme === LIGHT_THEME || theme === DARK_THEME) ? theme : DARK_THEME;
 }
 
 /**
@@ -31,7 +31,7 @@ function bgOnLoad() {
  */
 function fabOnClick() {
     let theme = getValidThemeFromStorage();
-    let newTheme = (theme === DARK_THEME) ? LIGHT_THEME : DARK_THEME;
+    let newTheme = (theme === LIGHT_THEME) ? DARK_THEME : LIGHT_THEME;
     $('head link#theme').attr('href', 'static/css/' + newTheme + '.min.css');
     localStorage.setItem('docs-theme', newTheme);
 }

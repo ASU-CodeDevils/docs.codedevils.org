@@ -79,10 +79,6 @@ div#app:empty::before {
     }
 }
 
-div.bg-custom {
-    background-color: #75103B !important;
-}
-
 .nav-item:first-child {
     margin-left: 160px;
 }

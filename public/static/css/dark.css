@@ -17,6 +17,9 @@ body.close-side .sidebar-toggle {
 .dark-theme {
     display: inline-block;
 }
+div.bg-custom {
+    background-color: #4f4f4f !important;
+}
 .github-corner svg {
     color: #3f3f3f;
 }
