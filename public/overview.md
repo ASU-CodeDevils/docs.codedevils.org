@@ -1,6 +1,6 @@
-<img class="no-shadow light-theme" src="https://www.codedevils.org/public/static/home/img/logo.png" alt="logo" width="250">
+<img class="no-shadow light-theme" src="https://www.codedevils.org/static/home/img/logo.png" alt="logo" width="250">
 
-<img class="no-shadow dark-theme" src="https://www.codedevils.org/public/static/home/img/logo-light.png" alt="logo" width="250">
+<img class="no-shadow dark-theme" src="https://www.codedevils.org/static/home/img/logo-light.png" alt="logo" width="250">
 
 If you made it to the docs, you've probably already visited our [CodeDevils website](https://www.codedevils.org/). You
 can view documentation for the website [here](/website/).
