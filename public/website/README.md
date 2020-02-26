@@ -1,7 +1,7 @@
 CodeDevils Website
 ==================
 <:
-<img src="https://www.codedevils.org/public/static/home/img/favicon.png" alt="favicon" width=400>
+<img src="https://www.codedevils.org/static/home/img/favicon.png" alt="favicon" width=400>
 | View our documentation for the CodeDevils website below or on the side navigation menu. [Click here](https://www.codedevils.org)
 to go to the website. :>
 
