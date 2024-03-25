@@ -1,8 +1,6 @@
 import React from 'react';
 import { DocsThemeConfig } from 'nextra-theme-docs';
-import Footer from './components/Footer';
 import Link from 'next/link';
-// import Footer from '@sloppyflipflop/react-components-library';
 
 const config: DocsThemeConfig = {
   logo: <h1>docs.codedevils</h1>,
