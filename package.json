@@ -9,22 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SloppyFlipFlop/docs.codedevils.org.git"
+    "url": "git+https://github.com/ASU-CodeDevils/docs.codedevils.org.git"
   },
-  "author": "David Nevarez <fernando.d.nevarez@gmail.com>",
+  "author": "CodeDevils' Dev Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SloppyFlipFlop/docs.codedevils.org/issues"
+    "url": "https://github.com/ASU-CodeDevils/docs.codedevils.org/issues"
   },
-  "homepage": "https://github.com/SloppyFlipFlop/docs.codedevils.org#readme",
+  "homepage": "https://github.com/ASU-CodeDevils/docs.codedevils.org#readme",
   "dependencies": {
     "next": "^13.0.6",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^5.0.1",
-    "@sloppyflipflop/react-components-library": "0.0.3"
+    "react-icons": "^5.0.1"
   },
   "devDependencies": {
     "@types/node": "18.11.10",
