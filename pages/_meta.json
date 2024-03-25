@@ -1,0 +1,16 @@
+{
+  "index": {
+    "title": "Home",
+    "type": "page",
+    "display": "hidden"
+  },
+  "docs": {
+    "title": "Documentation",
+    "type": "page"
+  },
+  "about": {
+    "title": "About",
+    "type": "page",
+    "href": "https://www.codedevils.club/about"
+  }
+}
