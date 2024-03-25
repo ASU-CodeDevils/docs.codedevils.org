@@ -23,7 +23,8 @@ const config: DocsThemeConfig = {
     // CodeDevils Discord server
     link: 'https://discord.gg/eevXKjVmm2',
   },
-  docsRepositoryBase: 'https://github.com/ASU-CodeDevils/docs.codedevils.org',
+  docsRepositoryBase:
+    'https://github.com/ASU-CodeDevils/docs.codedevils.org/tree/dev/',
   footer: {
     // component: <Footer />,
     text: (
