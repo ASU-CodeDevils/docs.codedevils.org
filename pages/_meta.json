@@ -8,9 +8,9 @@
     "title": "Documentation",
     "type": "page"
   },
-  "about": {
-    "title": "About",
+  "projects": {
+    "title": "Projects",
     "type": "page",
-    "href": "https://www.codedevils.club/about"
+    "href": "https://www.codedevils.org/projects"
   }
 }
