@@ -7,12 +7,37 @@ const config: DocsThemeConfig = {
   head: (
     <>
       <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+
+      <title>CodeDevils' Documentation</title>
+      <meta
+        name='description'
+        content='CodeDevils documentation website for all of our projects and resources.'
+      />
+      <meta
+        name='keywords'
+        content='CodeDevils, ASU, Arizona State University, CodeDevils documentation, CodeDevils projects'
+      />
+      <meta name='robots' content='index, follow' />
+
+      <meta
+        name='author'
+        content="CodeDevils' Website Team, CodeDevils' Project leads and developers"
+      />
+
+      {/* opengraph */}
       <meta property='og:title' content="Codedevils' Documenation" />
       <meta
         property='og:description'
-        content='Documentation for the CodeDevils organization'
+        content='CodeDevils documentation website for all of our projects and resources.'
       />
-      <script src='https://cdn.tailwindcss.com'></script>
+      <meta property='og:image' content='https://www.codedevils.org/og.png' />
+
+      <link
+        rel='icon'
+        type='image/png'
+        sizes='32x32'
+        href='https://www.codedevils.org/favicon.webp'
+      />
     </>
   ),
   project: {
