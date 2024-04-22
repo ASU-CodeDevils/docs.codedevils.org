@@ -66,14 +66,6 @@ const config: DocsThemeConfig = {
       </span>
     ),
   },
-
-  /*
-  Sorry for the late ping @Officer. I just got done with the sponsorship packet. These will go out tomorrow around noon. If you happen to have time to look it over in the morning, I would appreciate some feedback. Thanks and sweet dreams! 😊
-
-
-  This is my diary, so that I can shit talk and the such.
-
-  */
 };
 
 export default config;
