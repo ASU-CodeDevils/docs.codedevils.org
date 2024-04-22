@@ -3,7 +3,7 @@ import { DocsThemeConfig } from 'nextra-theme-docs';
 import Link from 'next/link';
 
 const config: DocsThemeConfig = {
-  logo: <h1>docs.codedevils</h1>,
+  logo: <h1>docs.codedevils.org</h1>,
   head: (
     <>
       <meta name='viewport' content='width=device-width, initial-scale=1.0' />
